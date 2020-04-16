@@ -28,15 +28,27 @@ Java项目整合
 
 11. [Java SE 高级特性](https://www.yuque.com/u300253/learnjava/java_se_11)
 
-### 1.2 Java EE篇
-1. [Servlet 篇](https://www.yuque.com/u300253/learnjava/java_ee_01)
+12. [Java JDBC 讲解【更新中~】]()  
 
-2. [过滤器 与 监听器](https://www.yuque.com/u300253/learnjava/java_ee_02)
+### 1.2 Java EE篇
+1. [Servlet 篇](https://www.yuque.com/u300253/learnjava/java_ee_01)  
+
+2. [过滤器 与 监听器](https://www.yuque.com/u300253/learnjava/java_ee_02) 
+
+3. [JSP ](https://www.yuque.com/u300253/learnjava/java_ee_03)  
+
 # 二、项目预览   
-### 2.1 基于 Java 实现简单的注册登录系统   
+### 2.1 Java SE 篇章
+#### 2.1.1 基于 Java 实现简单的注册登录系统   
 注意：   
 1. 非数据库实现  
 2. 使用 ArrayList 实现用户注册信息存储  
 
-### 2.2 Java EE 实现验证码的生成以及验证  
+#### 2.1.2 基于 Java SE 的简单学生管理系统
+1. 使用了数据库实现登录注册的功能 
+2. 封装了 JDBC 实现简单的 BaseDao  
+3. 使用 mysql 为数据库作为数据持久化
+
+### 2.2 Java EE 篇章
+#### 2.2.1 实现验证码的生成以及验证  
 1. verify code 由 servlet 生成  
