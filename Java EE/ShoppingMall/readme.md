@@ -21,7 +21,7 @@
 - 验证码由后端生成，验证码点击图片或者 文字 都可以通过 js 进行交换  
 - 用户名  ajax 校验  
 - 没有编写注册功能，因为我比较懒 hhhh  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/202005131434362.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NhaWRld2VpMTIx,size_16,  color_FFFFFF,t_70)  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/202005131434362.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NhaWRld2VpMTIx,size_16,color_FFFFFF,t_70)  
 ### 2.2 商城主页  
 1. 用户登录成功就会进入该界面，用户登录信息经过 session 域进行保存  
 2. 商品界面采用了 分页处理  
