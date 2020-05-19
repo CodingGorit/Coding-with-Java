@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="aaaa" namespace="/" extends="struts-default">
+<!--		配置一个拦截器-->
+		<interceptors>
+			<interceptor name="m1" class="cn.gorit.interceptor.UserInterceptor"></interceptor>
+		</interceptors>
+
+		<action name="checkLogin" class="cn.gorit.action.LoginAction" method="checkLogin">
+			<result name="success" type="redirect">/index.jsp</result>
+			<result name="wrong" type="redirect">/login.jsp</result>
+		</action>
+
+		<action name="getAllUser" class="cn.gorit.action.UserManagerAction" method="getAllUser">
+			<result name="success" type="redirect">/show.jsp</result>
+		</action>
+
+		<action name="addUser" class="cn.gorit.action.UserManagerAction" method="addUser">
+			<result name="success" type="redirect">/addUser.jsp</result>
+			<result name="error" type="redirect">/error.jsp</result>
+			<interceptor-ref name="m1"></interceptor-ref>
+			<!-- 手动配置拦截器 -->
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+
+		<action name="deleteUser" class="cn.gorit.action.UserManagerAction" method="deleteUser">
+			<result name="success" type="redirect">/deleteUser.jsp</result>
+			<result name="error" type="redirect">/error.jsp</result>
+			<interceptor-ref name="m1"></interceptor-ref>
+			<!-- 手动配置拦截器 -->
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+
+		<action name="updateUser" class="cn.gorit.action.UserManagerAction" method="updateUser">
+			<result name="success" type="redirect">/editUser.jsp</result>
+			<result name="error" type="redirect">/error.jsp</result>
+			<interceptor-ref name="m1"></interceptor-ref>
+			<!-- 手动配置拦截器 -->
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+
+	</package>
+	<constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+</struts>    
