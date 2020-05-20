@@ -19,6 +19,10 @@ public class UserManagerAction {
         UserDao dao = new UserDaoImpl();
         ArrayList<User> list = dao.queryAllUser();
         session.put("list",list);
+        if (session.get("user") == null) {
+            session.put("msg","你还为登录，请登录");
+            return "fail";
+        }
         return "success";
     }
 
@@ -33,6 +37,10 @@ public class UserManagerAction {
         if (status == 2 || status == 3) {
             return "success";
         }
+        if (session.get("user") == null) {
+            session.put("msg","你还为登录，请登录");
+            return "fail";
+        }
         return "error";
     }
 
@@ -44,15 +52,18 @@ public class UserManagerAction {
         ArrayList<User> list = dao.queryAllUser();
         session.put("list",list);
         int status = (int) session.get("status");
-        if (status == 3) {
+        if (status == 2) {
             return "success";
+        }
+        if (session.get("user") == null) {
+            session.put("msg","你还为登录，请登录");
+            return "fail";
         }
         return "error";
     }
 
     public String updateUser() {
         System.out.println("更新用户的操作~");
-        System.out.println("删除用户的操作~");
         ActionContext ac = ActionContext.getContext(); // struct2 相当于 session
         Map<String, Object> session = ac.getSession();
         UserDao dao = new UserDaoImpl();
@@ -61,6 +72,10 @@ public class UserManagerAction {
         int status = (int) session.get("status");
         if (status == 2 || status == 3) {
             return "success";
+        }
+        if (session.get("user") == null) {
+            session.put("msg","你还为登录，请登录");
+            return "fail";
         }
         return "error";
     }

@@ -43,7 +43,8 @@
     }
 </style>
 <body>
-<h3>欢迎 ${user} ${power} 登录</h3>
+<h3>欢迎 ${user.getUsername()} ${power} 登录</h3>
+<br>
 <div class="container">
 
     <div class="opt">

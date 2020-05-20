@@ -37,6 +37,11 @@ Java项目整合
 
 3. [JSP ](https://www.yuque.com/u300253/learnjava/java_ee_03)  
 
+### 1.3 Java Spring 系列  
+1. [Spring 系列]()  
+2. [Spring MVC 系列]()  
+3. [SpringBoot 系列]()  
+
 # 二、项目预览   
 ### 2.1 Java SE 篇章
 #### 2.1.1 基于 Java 实现简单的注册登录系统   
@@ -62,4 +67,8 @@ verify code 由 servlet 生成
 > 此项目为一个简单的 Java EE 小小购物车的项目，它具有最简单的登录，购物车页面展示（分页），添加购物车，下单，付款（使用支付宝沙箱完成此操作）  
 
 #### 2.2.4 新增 Struct2 实现权限管理  （2020 5 19更新）  
-> 使用 maven 构建 Java EE 项目，并导入 Struct2 依赖，使用 Struct2 的类拦截器实现简易的权限管理功能
+> 使用 maven 构建 Java EE 项目，并导入 Struct2 依赖，使用 Struct2 的类拦截器实现简易的权限管理功能，新更新了如下功能  
+
+1. Ajax + JSON 格式数据返回  
+2. 实现文件上传 + 下载功能  
+3. 提供 struct2 生成验证码的功能  

@@ -37,12 +37,11 @@ public class LoginAction {
                 power = "系统维护员";
             }
             session.put("power",power);
-            session.put("user",user.getUsername());
+            session.put("user",user);
             return "success";
         } else {
             session.put("msg","你的账户输入有误，请重新输入");
             return "wrong";
         }
-//        return "aaa";
     }
 }

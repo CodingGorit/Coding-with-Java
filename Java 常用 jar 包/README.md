@@ -19,4 +19,6 @@ jar 包版本更新了一下
 2. mysql 5.1.0 驱动  
 
 ### 六、Java 框架  
-1. MyBatis 框架 （Java ORM）
+1. MyBatis 框架 （Java ORM）  
+
+说实话，学了 Maven，这个根本就不需要了好嘛
