@@ -13,14 +13,11 @@ public class UserDaoImpl implements UserDao {
     @Override
     public int selectUserByNameAndPwd(String username, String password) {
         Session session =  HibernateUtils.getSession();
-        Criteria criteria = session.createCriteria(User.class);
-        List<User> list = criteria.list();
-        for (User u:list) {
-            System.out.println(u.toString());
-            if (u.getUsername().equals(username) && u.getPassword().equals(password)) {
-                System.out.println("ok");
-                return 1;
-            }
+        Query query = session.createQuery("from User u where u.username = :a and u.password = :b").setString("a",username).setString("b",password);
+        User user = (User)query.uniqueResult();
+        if (user!= null) {
+            System.out.println("ok");
+            return 1;
         }
         return 0;
     }
