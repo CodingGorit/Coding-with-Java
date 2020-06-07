@@ -39,25 +39,25 @@ public class StudentDaoImpl implements StudentDao {
     }
 
     public int addStudent(Student stu, String addStuClazz, String Grade, String studentClazz) {
-//        System.out.println("ÇëÊäÈëÑ§ÉúµÄ ID");
+//        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ ID");
 //        stu.setStuId(in.next());
-//        System.out.println("ÇëÊäÈëÑ§ÉúµÄÐÕÃû");
+//        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 //        stu.setStuName(in.next());
-//        System.out.println("ÇëÊäÈëÑ§ÉúµÄÄêÁä");
+//        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 //        stu.setStuAge(in.nextInt());
 
-//        System.out.println("ÇëÊäÈëÑ§ÉúµÄÄê¼¶");
+//        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ê¼¶");
 //        String grade = in.next();
 //
-//        System.out.println("ÇëÊäÈëÑ§ÉúËùÔÚ°à¼¶");
+//        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½Ú°à¼¶");
 //        String clasz = in.next();
 
-        // ÏÈ²åÈë°à¼¶±í
+        // ï¿½È²ï¿½ï¿½ï¿½à¼¶ï¿½ï¿½
         Classz classz = new Classz(Grade,studentClazz);
 
-        // Ñ§ÉúËùÔÚ°à¼¶¼ÓÈë
+        // Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½Ú°à¼¶ï¿½ï¿½ï¿½ï¿½
         stu.setClassz(classz.toString());
-        // ¼ÓÈëÊý¾Ý¿â
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¿ï¿½
         String sql = "insert into student(stuId, stuName, stuAge, classz) values(?,?,?,?)";
 
         try {
@@ -175,7 +175,7 @@ public class StudentDaoImpl implements StudentDao {
         }
     }
 
-    // Ä£ºý²éÑ¯
+    // Ä£ï¿½ï¿½ï¿½ï¿½Ñ¯
     public void queryStudentByFirstName(String firstName) {
         String sql = "select * from student where stuName like ?";
         try {
@@ -239,7 +239,7 @@ public class StudentDaoImpl implements StudentDao {
         classz.setClasz(studentClazz);
         stu.setClassz(addStuClazz);
         try {
-            // ÏÈÐÞ¸Ä°à¼¶±í
+            // ï¿½ï¿½ï¿½Þ¸Ä°à¼¶ï¿½ï¿½
             updateClasz(Grade,studentClazz,stu.getStuId());
 
             PreparedStatement ps = db.getConnect("update student set stuName = ?, stuAge = ?, classz = ? where stuId = ?");
@@ -258,15 +258,15 @@ public class StudentDaoImpl implements StudentDao {
     // OK
     public int deleteStudent(String id) {
         try {
-            // ÏÈÉ¾³ýÍâ¼üÉÏµÄÊý¾Ý
+            // ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½ï¿½
             PreparedStatement ps1 = db.getConnect("delete from classz where stuId = ?");
             ps1.setString(1,id);
             int res1 = ps1.executeUpdate();
             if (res1 > 0) {
-                System.out.println("Íâ¼üÉ¾³ý³É¹¦");
+                System.out.println("ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½É¹ï¿½");
             }
 
-            // ÔÙÉ¾³ý Ñ§Éú±íµÄÐÅÏ¢
+            // ï¿½ï¿½É¾ï¿½ï¿½ Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
             PreparedStatement ps = db.getConnect("delete from student where stuId = ?");
             ps.setString(1,id);
             int res = ps.executeUpdate();

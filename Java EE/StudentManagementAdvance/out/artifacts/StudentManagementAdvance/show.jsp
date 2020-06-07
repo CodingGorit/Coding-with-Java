@@ -58,6 +58,8 @@
                 </c:forEach>
             </tbody>
         </table>
+
+
         <%
 //            int num = 0;
 //            if (application.getAttribute("num") != null ) {
@@ -175,6 +177,8 @@
         let stuAge;
         let stuClazz; // 添加时学生的 年级，拼接之后的数据 ！！！
 
+
+
         $("#delete").on('click',function () {
             console.log((stuID));
             window.location.href = $("#delete_student").prop("href") + "?stuID="+stuID;
@@ -183,7 +187,6 @@
         function Values(id) {
             stuID = id;
         }
-
 
 
         // 获取添加表单的学号

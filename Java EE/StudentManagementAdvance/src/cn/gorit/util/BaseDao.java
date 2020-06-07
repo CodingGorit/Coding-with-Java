@@ -9,7 +9,7 @@ public class BaseDao {
     private static final String PASSWORD = "root";
     private Connection con = null;
 
-    // »ñÈ¡Á¬½Ó 1
+    // ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ 1
     public Statement getConnection() {
         Statement ps = null;
         try {
@@ -23,7 +23,7 @@ public class BaseDao {
         return ps;
     }
 
-    // »ñÈ¡Á¬½Ó
+    // ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½
     public PreparedStatement getConnect(String sql) throws SQLException {
         PreparedStatement ps = null;
 
@@ -39,7 +39,7 @@ public class BaseDao {
         return ps;
     }
 
-    // ¹Ø±ÕÁ¬½Ó
+    // ï¿½Ø±ï¿½ï¿½ï¿½ï¿½ï¿½
     public void closed(PreparedStatement ps, ResultSet set) throws SQLException {
         if (ps!=null) {
             ps.close();

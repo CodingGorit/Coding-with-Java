@@ -9,7 +9,6 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="jstl-1.2" />
-          <element id="library" level="project" name="lib" />
         </element>
       </element>
     </root>
