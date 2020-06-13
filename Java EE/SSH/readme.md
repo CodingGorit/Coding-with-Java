@@ -9,7 +9,37 @@
 
 本次项目，我将以一个简单的登录案例实现 SSH 的项目整合，项目我会放到 Github 上面，需要的同学可以 clone 下来在本地跑一跑。  
   
-接下来就是从 0 教大家搭建  SSH 项目
+接下来就是从 0 教大家搭建  SSH 项目, 目录如下  
+
+```xml
+一、项目环境搭建  
+    1.1 配置 Spring 坐标依赖  
+    1.2 配置 hibernate 坐标依赖  
+    1.3 配置 struts2 坐标依赖  
+    1.4 配置Java EE 坐标依赖    
+    1.5 其他工具  
+二、项目结构搭建  
+    2.1 配置文件  
+    2.2 包结构   
+三、编写配置文件  
+    3.1 web.xml 文件配置  
+    3.2 编写 jdbc.properties 文件  
+    3.3 编写 applicationContext.xml 配置文件  
+    3.4 struts 配置文件  
+四、使用 hibernate 逆向生成工具生成实体  
+    4.1 配置数据库连接信息  
+    4.2 逆向生成实体类  
+    4.3 实体类配置  
+五、JavaBean 编写  
+    5.1 编写 dao 层  
+    5.2 编写 Service 层  
+    5.3 编写 Controller 层 （UserAction）  
+    5.4 编写 struts 路由映射  
+六、前端界面编写  
+    6.1 登录界面编写  
+    6.1 登录成功  
+    6.3 登录失败  
+```
 
 # 一、项目环境搭建
 使用 maven 搭建一个 Java Web 项目
