@@ -14,7 +14,7 @@ Java项目整合目录:
 二、Java SE 至 Java EE系列项目整合  
 1. Java SE 学习阶段项目练习
 2. Java EE 学习阶段项目练习
-3.  Java EE 框架整合项目
+3. Java EE 框架整合项目
 
 
 # 一、Java 从入门到精通学习笔记  
