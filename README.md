@@ -109,7 +109,7 @@ verify code 由 servlet 生成
 2. 使用 hibernate 实现 ORM 的功能    
 3. 以学生管理系统为例，整合两个框架的使用    
 
-### 2.3.3 新增 struct2 + hibernate5 + Spring5 整合项目 （2020 6 14日更新）  
+#### 2.3.3 新增 struct2 + hibernate5 + Spring5 整合项目 （2020 6 14日更新）  
 1. 一个 SSH 项目快速开发脚手架  
 2. 项目采用 idea + Maven 搭建
 3. 项目采用了一个简单的登录示例演示 SSH 整合的实现
