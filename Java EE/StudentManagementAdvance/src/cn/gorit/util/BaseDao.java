@@ -9,7 +9,7 @@ public class BaseDao {
     private static final String PASSWORD = "root";
     private Connection con = null;
 
-    // ��ȡ���� 1
+    // 获取 Statement 连接
     public Statement getConnection() {
         Statement ps = null;
         try {
@@ -23,7 +23,7 @@ public class BaseDao {
         return ps;
     }
 
-    // ��ȡ����
+    // 获取 PreparedStatement （推荐）
     public PreparedStatement getConnect(String sql) throws SQLException {
         PreparedStatement ps = null;
 
@@ -39,7 +39,7 @@ public class BaseDao {
         return ps;
     }
 
-    // �ر�����
+    // 关闭连接
     public void closed(PreparedStatement ps, ResultSet set) throws SQLException {
         if (ps!=null) {
             ps.close();
