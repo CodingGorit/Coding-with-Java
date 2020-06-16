@@ -117,6 +117,8 @@ verify code 由 servlet 生成
 3. 项目采用了一个简单的登录示例演示 SSH 整合的实现  
 
 ### 2.4 SpringBoot_study  (2020 6 16 更新)
-SpringBoot 项目整合
-
+#### 2.4.1 SpringBoot 整合持久层  
+1. 整合 JdbcTemplate   
+2. 整合 MyBatis    
+3. 整合 SpringBoot Data Jpa  
 
