@@ -73,9 +73,9 @@ Tips:
     3.3 [SpringBoot 全局异常处理【更新中~】](https://www.yuque.com/u300253/learnjava/zh4czx)  
     3.2 [SpringBoot 整合持久层技术【更新中~】](https://www.yuque.com/u300253/learnjava/piot24)  
 
-# 二、项目预览   
-### 2.1 Java SE 篇章
-#### 2.1.1 基于 Java 实现简单的注册登录系统   
+# 二、 Java 基础项目  
+### 2.1 Java SE 篇章  
+#### 2.1.1 基于 Java 实现简单的注册登录系统     
 注意：   
 1. 非数据库实现  
 2. 使用 ArrayList 实现用户注册信息存储    
@@ -97,8 +97,10 @@ verify code 由 servlet 生成
 项目简介： 
 > 此项目为一个简单的 Java EE 小小购物车的项目，它具有最简单的登录，购物车页面展示（分页），添加购物车，下单，付款（使用支付宝沙箱完成此操作）  
 
-### 2.3 Struct2 hibernate spring 框架
-#### 2.3.1 新增 Struct2 实现权限管理  （2020 5 19更新）  
+
+# 三、Java EE 企业级框架篇  
+### 3.1 Struct2 hibernate spring 框架
+#### 3.1.1 新增 Struct2 实现权限管理  （2020 5 19更新）  
 > 使用 maven 构建 Java EE 项目，并导入 Struct2 依赖，使用 Struct2 的类拦截器实现简易的权限管理功能   
 
 新更新了如下功能   
@@ -106,18 +108,18 @@ verify code 由 servlet 生成
 2. 实现文件上传 + 下载功能  
 3. 提供 struct2 生成验证码的功能   
 
-#### 2.3.2 新增 Struct2 + hibernate 整合项目 (2020 6 2更新)   
+#### 3.1.2 新增 Struct2 + hibernate 整合项目 (2020 6 2更新)   
 1. 使用 Struct2 框架实现 MVC 的功能   
 2. 使用 hibernate 实现 ORM 的功能    
 3. 以学生管理系统为例，整合两个框架的使用    
 
-#### 2.3.3 新增 struct2 + hibernate5 + Spring5 整合项目 （2020 6 14日更新）  
+#### 3.1.3 新增 struct2 + hibernate5 + Spring5 整合项目 （2020 6 14日更新）  
 1. 一个 SSH 项目快速开发脚手架  
 2. 项目采用 idea + Maven 搭建
 3. 项目采用了一个简单的登录示例演示 SSH 整合的实现  
 
-### 2.4 SpringBoot_study  (2020 6 16 更新)
-#### 2.4.1 SpringBoot 整合持久层  
+### 3.2 SpringBoot_study  (2020 6 16 更新)
+#### 3.2.1 SpringBoot 整合持久层  
 1. 整合 JdbcTemplate   
 2. 整合 MyBatis    
 3. 整合 SpringBoot Data Jpa  
