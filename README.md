@@ -70,6 +70,8 @@ Tips:
 3. [SpringBoot 系列]()   
     3.1 [运行你的第一个 SpringBoot 程序](https://www.yuque.com/u300253/learnjava/fa4gbl)  
     3.2 [SpringBoot Web 开发整合](https://www.yuque.com/u300253/learnjava/gah719)  
+    3.3 [SpringBoot 全局异常处理【更新中~】](https://www.yuque.com/u300253/learnjava/zh4czx)  
+    3.2 [SpringBoot 整合持久层技术【更新中~】](https://www.yuque.com/u300253/learnjava/piot24)  
 
 # 二、项目预览   
 ### 2.1 Java SE 篇章
@@ -112,4 +114,9 @@ verify code 由 servlet 生成
 #### 2.3.3 新增 struct2 + hibernate5 + Spring5 整合项目 （2020 6 14日更新）  
 1. 一个 SSH 项目快速开发脚手架  
 2. 项目采用 idea + Maven 搭建
-3. 项目采用了一个简单的登录示例演示 SSH 整合的实现
+3. 项目采用了一个简单的登录示例演示 SSH 整合的实现  
+
+### 2.4 SpringBoot_study  (2020 6 16 更新)
+SpringBoot 项目整合
+
+
