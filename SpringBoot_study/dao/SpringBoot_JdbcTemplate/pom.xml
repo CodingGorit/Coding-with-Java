@@ -33,7 +33,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.10</version>
+            <version>8.0.16</version>
             <scope>runtime</scope>
         </dependency>
         <!-- 配置阿里巴巴的数据库连接池 -->
