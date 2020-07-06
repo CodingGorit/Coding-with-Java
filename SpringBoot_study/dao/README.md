@@ -6,5 +6,3 @@
 
 ### 二、SpringBoot 整合 MyBatis  
 项目采用了目前最新版本的 SpringBoot 2.3.1 搭建，使用了 MySQL 5.5 版本，这里我没有采用 xml 的方式，而是使用注解开发实现了 CRUD  
-
-### 三、SpringBoot Data JPA 整合 （更新中~）
