@@ -18,8 +18,8 @@ Java项目整合目录:
 
 三、Java EE 企业级框架篇章  
 1. SSH 系列 （更新完毕）  
-2. SSM 系列 （更新中）~    
-3. SpringBoot 系列  
+2. SSM 系列    
+3. SpringBoot 系列  （更新中）
 
 
 
@@ -76,8 +76,9 @@ Tips:
 3. [SpringBoot 系列]()   
     3.1 [运行你的第一个 SpringBoot 程序](https://www.yuque.com/u300253/learnjava/fa4gbl)  
     3.2 [SpringBoot Web 开发整合](https://www.yuque.com/u300253/learnjava/gah719)  
-    3.3 [SpringBoot 全局异常处理【更新中~】](https://www.yuque.com/u300253/learnjava/zh4czx)  
-    3.2 [SpringBoot 整合持久层技术【更新中~】](https://www.yuque.com/u300253/learnjava/piot24)  
+    3.3 [SpringBoot 全局异常处理](https://www.yuque.com/u300253/learnjava/zh4czx)  
+    3.4 [SpringBoot 整合持久层技术](https://www.yuque.com/u300253/learnjava/piot24)   
+    3.5 [SpringBoot 整合 Swagger 【更新中~】](https://www.yuque.com/u300253/learnjava/egvrx8)  
 
 # 二、 Java 基础项目  
 ### 2.1 Java SE 篇章  
@@ -125,8 +126,11 @@ verify code 由 servlet 生成
 3. 项目采用了一个简单的登录示例演示 SSH 整合的实现  
 
 ### 3.2 SpringBoot_study  (2020 6 16 更新)
-#### 3.2.1 SpringBoot 整合持久层  
+#### 3.2.1 SpringBoot 整合持久层  （2020 7 7 更新完毕）
 1. 整合 JdbcTemplate   
 2. 整合 MyBatis    
-3. 整合 SpringBoot Data Jpa  
+3. 整合 Spring Data JPA   
+4. 整合 Spring Data JPA  构建 REST API  
 
+#### 3.2.2 SpringBoot 全局处理配置  
+1. SpringBoot 配置全局异常处理
