@@ -11,4 +11,6 @@
 项目采用 Springboot 2.3.1 搭建，整合了 JPA 的基本使用，数据库的表，均由 JPA 生成，因此在使用之前，我们只需要自己创建一个名为 jpa 的数据库（mysql）  
 
 ### 四、SpringBoot 整合 Spring Data JPA 构建 REST API  
-使用 JPA-REST  构建 REST 服务
+使用 JPA-REST  构建 REST 服务  
+
+### 五、SpringBoot 整合 mybatis-plus  （更新中）
