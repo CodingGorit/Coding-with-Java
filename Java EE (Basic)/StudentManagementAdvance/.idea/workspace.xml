@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a4fdaa-6d57-4cbc-989e-474718498e62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagementAdvance/META-INF/StudentManagementAdvance.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java EE (SSM)/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java EE (SSM)/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/workspace/SpringMVC_Study/day1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -314,6 +311,7 @@
       <workItem from="1591059580062" duration="4348000" />
       <workItem from="1591077862439" duration="87000" />
       <workItem from="1594557611278" duration="905000" />
+      <workItem from="1594611600778" duration="107000" />
     </task>
     <servers />
   </component>
@@ -353,10 +351,10 @@
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="762" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1587531535188" />
-    <state x="1304" y="239" key="FileChooserDialogImpl" timestamp="1594557876483">
+    <state x="1304" y="239" key="FileChooserDialogImpl" timestamp="1594611709902">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
-    <state x="1304" y="239" key="FileChooserDialogImpl/0.0.1920.1049@0.0.1920.1049" timestamp="1594557876483" />
+    <state x="1304" y="239" key="FileChooserDialogImpl/0.0.1920.1049@0.0.1920.1049" timestamp="1594611709902" />
     <state width="1747" height="279" key="GridCell.Tab.0.bottom" timestamp="1591077756281">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
