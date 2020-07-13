@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68a4fdaa-6d57-4cbc-989e-474718498e62" name="Default Changelist" comment="" />
+    <list default="true" id="68a4fdaa-6d57-4cbc-989e-474718498e62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentManagementAdvance/META-INF/StudentManagementAdvance.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +42,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -45,6 +53,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1asaYrdUKZVxCJLyCkoBE219TBf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -53,6 +62,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -303,6 +313,7 @@
       <workItem from="1590629693225" duration="2038000" />
       <workItem from="1591059580062" duration="4348000" />
       <workItem from="1591077862439" duration="87000" />
+      <workItem from="1594557611278" duration="905000" />
     </task>
     <servers />
   </component>
@@ -322,10 +333,10 @@
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="789" y="21" key="#Tomcat_8.5.39/0.0.1920.1049@0.0.1920.1049" timestamp="1588069623836" />
-    <state x="794" y="56" key="#Tomcat_9" timestamp="1591062332305">
+    <state x="794" y="56" key="#Tomcat_9" timestamp="1594557786702">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
-    <state x="794" y="56" key="#Tomcat_9/0.0.1920.1049@0.0.1920.1049" timestamp="1591062332305" />
+    <state x="794" y="56" key="#Tomcat_9/0.0.1920.1049@0.0.1920.1049" timestamp="1594557786702" />
     <state x="672" y="143" width="1094" height="906" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588069652853">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -342,10 +353,10 @@
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="762" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1587531535188" />
-    <state x="1304" y="239" key="FileChooserDialogImpl" timestamp="1591077948218">
+    <state x="1304" y="239" key="FileChooserDialogImpl" timestamp="1594557876483">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
-    <state x="1304" y="239" key="FileChooserDialogImpl/0.0.1920.1049@0.0.1920.1049" timestamp="1591077948218" />
+    <state x="1304" y="239" key="FileChooserDialogImpl/0.0.1920.1049@0.0.1920.1049" timestamp="1594557876483" />
     <state width="1747" height="279" key="GridCell.Tab.0.bottom" timestamp="1591077756281">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>

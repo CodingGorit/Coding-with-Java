@@ -98,7 +98,7 @@ verify code 由 servlet 生成
 
 #### 2.2.2 学生管理系统 Java EE 版本 （简易 Java Web）   
 (StudentManagementAdvance  )  
-> 此版本是在 JavaSE 的基础上进行了升级， 数据库不变，有三张表。可以进行简单的数据添加，修改，和删除的功能  
+> 此版本是在 Java SE 的基础上进行了升级， 数据库不变，有三张表。可以进行简单的数据添加，修改，和删除的功能  
 
 #### 2.2.3 Java EE 之简易购物车项目  (ShoppingMall)
 项目简介： 
