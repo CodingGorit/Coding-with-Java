@@ -78,7 +78,7 @@ Tips:
     3.2 [SpringBoot Web 开发整合](https://www.yuque.com/u300253/learnjava/gah719)  
     3.3 [SpringBoot 全局异常处理](https://www.yuque.com/u300253/learnjava/zh4czx)  
     3.4 [SpringBoot 整合持久层技术](https://www.yuque.com/u300253/learnjava/piot24)   
-    3.5 [SpringBoot 整合 Swagger 【更新中~】](https://www.yuque.com/u300253/learnjava/egvrx8)  
+    3.5 [SpringBoot 整合 Swagger2](https://www.yuque.com/u300253/learnjava/egvrx8)  
 
 # 二、 Java 基础项目  
 ### 2.1 Java SE 篇章  
