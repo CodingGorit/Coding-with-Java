@@ -2,7 +2,8 @@
 ### 一、Spring 篇  
 
 
-### 二、SpringMVC 篇  
+### 二、SpringMVC 篇  （项目出 Bug 了）
+> SpringMVC 学习以笔记
 
 
 ### 三、 MyBatis 篇  
