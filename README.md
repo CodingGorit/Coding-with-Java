@@ -18,7 +18,7 @@ Java项目整合目录:
 
 三、Java EE 企业级框架篇章  
 1. SSH 系列 （更新完毕）  
-2. SSM 系列    
+2. SSM 系列  (待更新~)
 3. SpringBoot 系列  （更新中）
 
 
@@ -134,5 +134,7 @@ verify code 由 servlet 生成
 4. 整合 Spring Data JPA  构建 REST API   
 5. 整合 MyBatis-plus （以后有空再说）
 
-#### 3.2.2 SpringBoot 全局处理配置  
+#### 3.2.2 SpringBoot 全局处理配置  （2020 7 19）
 1. SpringBoot 配置全局异常处理
+2. SpringBoot 整合 Java 配置类
+3. SpringBoot 整合 Swagger2
