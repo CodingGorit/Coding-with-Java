@@ -74,12 +74,15 @@ Tips:
     2.2 [SpringMVC 第二弹](https://www.yuque.com/u300253/learnjava/uytf6x)  
     2.3 [SpringMVC SSM 整合](https://www.yuque.com/u300253/learnjava/ckth8z)  
 3. [SpringBoot 系列]()   
-    3.1 [运行你的第一个 SpringBoot 程序](https://www.yuque.com/u300253/learnjava/fa4gbl)  
-    3.2 [SpringBoot Web 开发整合](https://www.yuque.com/u300253/learnjava/gah719)  
-    3.3 [SpringBoot 全局异常处理](https://www.yuque.com/u300253/learnjava/zh4czx)  
-    3.4 [SpringBoot 整合持久层技术](https://www.yuque.com/u300253/learnjava/piot24)   
-    3.5 [SpringBoot 整合 Swagger2](https://www.yuque.com/u300253/learnjava/egvrx8)  
-    3.6 [SpringBoot 整合 Shiro【待更新】](https://www.yuque.com/u300253/learnjava/uua9sb)
+    一、SpringBoot 基础整合  
+        3.1 [运行你的第一个 SpringBoot 程序](https://www.yuque.com/u300253/learnjava/fa4gbl)  
+        3.2 [SpringBoot Web 开发整合](https://www.yuque.com/u300253/learnjava/gah719)  
+        3.3 [SpringBoot 全局异常处理](https://www.yuque.com/u300253/learnjava/zh4czx)  
+        3.4 [SpringBoot 整合持久层技术](https://www.yuque.com/u300253/learnjava/piot24)   
+        3.5 [SpringBoot 整合 Swagger2](https://www.yuque.com/u300253/learnjava/egvrx8)  
+    二、SpringBoot 整合安全框架  
+        3.6 [SpringBoot 整合 Shiro](https://www.yuque.com/u300253/learnjava/uua9sb)  
+        3.7 [SpringBoot 整合JWT](https://www.yuque.com/u300253/learnjava/qsu9ni)
 
 # 二、 Java 基础项目  
 ### 2.1 Java SE 篇章  
@@ -135,6 +138,10 @@ verify code 由 servlet 生成
 5. 整合 MyBatis-plus （以后有空再说）
 
 #### 3.2.2 SpringBoot 全局处理配置  （2020 7 19）
-1. SpringBoot 配置全局异常处理
-2. SpringBoot 整合 Java 配置类
-3. SpringBoot 整合 Swagger2
+1. SpringBoot 配置全局异常处理  
+2. SpringBoot 整合 Java 配置类  
+3. SpringBoot 整合 Swagger2  
+  
+#### 3.7.3 SpringBoot 整合安全框架 （2020 8 17）    
+1. SpringBoot 整合 Shiro 框架
+2. SpringBoot 整合 JWT 框架  
