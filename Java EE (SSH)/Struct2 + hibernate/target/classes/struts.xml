@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<package name="aa" namespace="/" extends="struts-default">
+		<!-- 配置服务方法的访问路径, 访问 Test.action 就会显示 index.jsp 的东西，默认是 success 显示的内容 -->
+		<action name="checkLogin" class="cn.gorit.action.UserAction" method="checkLogin">
+			<result name="success" type="redirect">/getAllStudent</result>
+			<result name="error">/login.jsp</result>
+		</action>
+
+		<action name="getAllStudent" class="cn.gorit.action.StudentAction" method="getAllStudent">
+			<result name="success" type="redirect">/index.jsp</result>
+		</action>
+
+		<action name="deleteStudent" class="cn.gorit.action.StudentAction" method="deleteStudent">
+			<result name="success" type="redirect">/getAllStudent</result>
+		</action>
+
+		<action name="addStudent" class="cn.gorit.action.StudentAction" method="addStudent">
+			<result name="success" type="redirect">/getAllStudent</result>
+			<result name="error">/index.jsp</result>
+		</action>
+
+		<action name="updateStudent" class="cn.gorit.action.StudentAction" method="updateStudent">
+			<result name="success" type="redirect">/getAllStudent</result>
+		</action>
+
+	</package>
+	<constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+</struts>    

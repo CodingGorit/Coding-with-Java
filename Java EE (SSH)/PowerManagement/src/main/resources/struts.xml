@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="aaaa" namespace="/" extends="struts-default">
+<!--		配置一个拦截器-->
+		<interceptors>
+			<interceptor name="m1" class="cn.gorit.interceptor.UserInterceptor"></interceptor>
+		</interceptors>
+
+		<action name="checkLogin" class="cn.gorit.action.LoginAction" method="checkLogin">
+			<result name="success" type="redirect">/index.jsp</result>
+			<result name="wrong" type="redirect">/login.jsp</result>
+			<result name="fail" type="redirect">/login.jsp</result>
+		</action>
+
+		<action name="getAllUser" class="cn.gorit.action.UserManagerAction" method="getAllUser">
+			<result name="success" type="redirect">/show.jsp</result>
+			<result name="fail" type="redirect">/login.jsp</result>
+		</action>
+
+		<action name="addUser" class="cn.gorit.action.UserManagerAction" method="addUser">
+			<result name="success" type="redirect">/addUser.jsp</result>
+			<result name="error" type="redirect">/error.jsp</result>
+			<result name="fail" type="redirect">/login.jsp</result>
+			<interceptor-ref name="m1"></interceptor-ref>
+			<!-- 手动配置拦截器 -->
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+
+		<action name="deleteUser" class="cn.gorit.action.UserManagerAction" method="deleteUser">
+			<result name="success" type="redirect">/deleteUser.jsp</result>
+			<result name="error" type="redirect">/error.jsp</result>
+			<result name="fail" type="redirect">/login.jsp</result>
+			<interceptor-ref name="m1"></interceptor-ref>
+			<!-- 手动配置拦截器 -->
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+
+		<action name="updateUser" class="cn.gorit.action.UserManagerAction" method="updateUser">
+			<result name="success" type="redirect">/editUser.jsp</result>
+			<result name="error" type="redirect">/error.jsp</result>
+			<result name="fail" type="redirect">/login.jsp</result>
+			<interceptor-ref name="m1"></interceptor-ref>
+			<!-- 手动配置拦截器 -->
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+
+	</package>
+
+	<package name="bb" namespace="/" extends="json-default">
+		<action name="ArrayAjax" class="cn.gorit.action.StudyAction" method="ArrayAjax">
+			<result name="success" type="json">
+				<param name="includeProperties">str</param>
+			</result>
+		</action>
+	</package>
+
+	<package name="cc" namespace="/" extends="struts-default">
+		<action name="file"
+				class="cn.gorit.action.UpLoadAction" method="execute">
+			<result name="success">/success.jsp</result>
+		</action>
+
+		<action name="down" class="cn.gorit.action.DownloadAction">
+			<result name="success"  type="stream">
+				<param name="contentDisposition">attachment;filename="${fileName}"</param>
+			</result>
+		</action>
+
+		<action name="code" class="cn.gorit.action.VerifyCodeAction">
+			<result type="stream">
+				<param name="contentType">/image/jpeg</param>
+				<param name="inputName">inputStream</param>
+			</result>
+		</action>
+	</package>
+
+	<constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+</struts>    

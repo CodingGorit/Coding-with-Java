@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="studentmanagementsystem@localhost" uuid="59fc743d-6ccd-4a8c-9129-1cf23e077f5f">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/studentmanagementsystem</jdbc-url>
+    </data-source>
+  </component>
+</project>
