@@ -1,8 +1,9 @@
-# Coding-with-Java  
+# Coding-with-Java  项目介绍  
+
 
 项目地址：[Coding-with-Java](https://github.com/CodingGorit/Coding-with-Java)
 项目介绍：
-> Coding-with-Java 是一个面向新手的 Java 从入门到进阶的项目，内容主要涉及 Java SE，Java EE 和 一些企业级框架的学习及使用，致力于帮助编程新手解决学习完基础语法，没有合适的项目练手。以及知识点巩固。后期会不定期更新一些面试题。此项目将会保持持续更新，目前主要由我一个人在维护
+> Coding-with-Java 是一个面向新手的 Java 从入门到进阶的项目，内容主要涉及 Java SE，Java EE 和 一些企业级框架的学习及使用，致力于帮助编程新手解决学习完基础语法，没有合适的项目练手。以及知识点巩固。后期会不定期更新一些面试题。此项目将会保持持续更新，目前主要由我一个人在维护，项目更新了分支，大家可以根据需要下载对应的部分
 
 
 Java项目整合目录:  
@@ -18,7 +19,7 @@ Java项目整合目录:
 
 三、Java EE 企业级框架篇章  
 1. SSH 系列 （更新完毕）  
-2. SSM 系列  (待更新~)
+2. SSM 系列  (更新中)
 3. SpringBoot 系列  （更新中）
 
 
@@ -110,7 +111,7 @@ verify code 由 servlet 生成
 
 
 # 三、Java EE 企业级框架篇  
-### 3.1 Struct2 hibernate spring 框架
+### 3.1 Struct2 hibernate spring 框架 （SSH篇）
 #### 3.1.1 新增 Struct2 实现权限管理  （2020 5 19更新）  
 > 使用 maven 构建 Java EE 项目，并导入 Struct2 依赖，使用 Struct2 的类拦截器实现简易的权限管理功能   
 
@@ -127,21 +128,35 @@ verify code 由 servlet 生成
 #### 3.1.3 新增 struct2 + hibernate5 + Spring5 整合项目 （2020 6 14日更新）  
 1. 一个 SSH 项目快速开发脚手架  
 2. 项目采用 idea + Maven 搭建
-3. 项目采用了一个简单的登录示例演示 SSH 整合的实现  
+3. 项目采用了一个简单的登录示例演示 SSH 整合的实现     
 
-### 3.2 SpringBoot_study  (2020 6 16 更新)
-#### 3.2.1 SpringBoot 整合持久层  （2020 7 7 基本更新完毕）
+### 3.2 Spring SpringMVC Mbatis 框架 （SSM 篇）  
+#### 3.2.1 Spring  
+> 待更新
+
+#### 3.2.2 SpringMVC 
+1. 增加了一个 SpringMVC 入门程序 （2020年9月7日添加）  
+
+#### 3.2.3 MyBatis
+> 待更新
+
+#### 3.2.4 SSM 整合  
+1. 一个 SSM 整合方案
+
+
+# 四、SpringBoot_study  (2020 6 16 更新)
+### 4.1 SpringBoot 整合持久层  （2020 7 7 基本更新完毕）
 1. 整合 JdbcTemplate   
 2. 整合 MyBatis    
 3. 整合 Spring Data JPA   
 4. 整合 Spring Data JPA  构建 REST API   
 5. 整合 MyBatis-plus （以后有空再说）
 
-#### 3.2.2 SpringBoot 全局处理配置  （2020 7 19）
+### 4.2 SpringBoot 全局处理配置  （2020 7 19）
 1. SpringBoot 配置全局异常处理  
 2. SpringBoot 整合 Java 配置类  
 3. SpringBoot 整合 Swagger2  
   
-#### 3.7.3 SpringBoot 整合安全框架 （2020 8 17）    
+### 4.3 SpringBoot 整合安全框架 （2020 8 17）    
 1. SpringBoot 整合 Shiro 框架
 2. SpringBoot 整合 JWT 框架  
