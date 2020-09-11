@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 声明模板xxx类 -->
+    <!-- 默认情况下生成的 bean 对象有且只有一个对象 -->
+    <!-- ioc 的单例模式：一个 bean 只能有一个对象 -->
+    <!-- 默认调用无参构造方法-->
+    <bean id="s1" class="cn.gorit.entity.Student"/>
+
+    <!--  scope 多例  -->
+    <bean id="s2" class="cn.gorit.entity.Student" scope="prototype">
+        <property name="name" value="coco"/>
+    </bean>
+    <!-- setter 注入 -->
+    <bean id="s3" class="cn.gorit.entity.Student" scope="prototype" autowire="byName">
+        <property name="name" value="无人区"/>
+        <property name="age" value="12"/>
+    </bean>
+
+    <!-- 构造器注入，根据 Name -->
+    <bean name="stu" class="cn.gorit.entity.Student">
+        <constructor-arg index="0" value="aaa"/>
+        <constructor-arg index="1" value="12"/>
+    </bean>
+
+    <!-- 构造器注入，根据 Type 注入，如果有重复的基础类型，要使用 Type 属性区分 -->
+    <bean name="stu1" class="cn.gorit.entity.Student" autowire="byType">
+        <constructor-arg type="java.lang.String" value="coco"/>
+        <constructor-arg type="java.lang.Integer" value="18"/>
+    </bean>
+
+    <bean name="stu2" class="cn.gorit.entity.Student">
+        <constructor-arg name="name" value="蓝蓝"/>
+        <constructor-arg name="age" value="22"/>
+    </bean>
+
+
+    <!-- 给 bean 设置一个别名 -->
+    <alias name="stu" alias="s4"/>
+    <alias name="stu1" alias="s5"/>
+    <alias name="stu2" alias="s6"/>
+</beans>
