@@ -1,0 +1,418 @@
+GET http://localhost:8080/json/test2?username=acaca&gender=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114555.400.html
+
+###
+
+GET http://localhost:8080/json/test2?username=acaca&gender=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114554-4.400.html
+
+###
+
+GET http://localhost:8080/json/test2?username=acaca&gender=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114554-3.400.html
+
+###
+
+GET http://localhost:8080/json/test2?username=acaca&gender=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114554-2.400.html
+
+###
+
+GET http://localhost:8080/json/test2?username=acaca&gender=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114554-1.400.html
+
+###
+
+GET http://localhost:8080/json/test2?username=acaca&gender=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114554.400.html
+
+###
+
+GET http://localhost:8080/json/test2?username=acaca&gender=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114553.400.html
+
+###
+
+GET http://localhost:8080/json/test2?username=acaca&gender=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114552.400.html
+
+###
+
+GET http://localhost:8080/json/test2?username=acaca&gender=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114210.400.html
+
+###
+
+GET http://localhost:8080/json/test2?username=acaca&sex=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114111.400.html
+
+###
+
+GET http://localhost:8080/json/test1?username=acaca&sex=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114105.200.txt
+
+###
+
+GET http://localhost:8080/json/test?username=acaca&sex=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114016.200.json
+
+###
+
+GET http://localhost:8080/json/test2?username=acaca&sex=男&age=13&str=adad
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-09-10T114011.400.html
+
+###
+
+GET http://localhost:8080/json/test?name=abc&gender=男&age=&str=adad
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-10T112016.500.html
+
+###
+
+GET http://localhost:8080/json/test?name=abc&gender=男&age=&str=adad
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-10T110910.500.html
+
+###
+
+POST http://localhost:8080/student?name=abc&gender=男&age=&str=adad
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-09T114248.404.html
+
+###
+
+GET http://localhost:8080/hc1
+Accept: */*
+Cache-Control: no-cache
+hhhh: 123
+
+<> 2020-09-09T105121.200.html
+
+###
+
+GET http://localhost:8080/hc
+Accept: */*
+Cache-Control: no-cache
+abc: 12
+
+<> 2020-09-09T104900-1.404.html
+
+###
+
+GET http://localhost:8080/hc
+Accept: */*
+Cache-Control: no-cache
+abc: 12
+
+<> 2020-09-09T104900.404.html
+
+###
+
+GET http://localhost:8080/hc
+Accept: */*
+Cache-Control: no-cache
+abc: 12
+
+<> 2020-09-09T104859-4.404.html
+
+###
+
+GET http://localhost:8080/hc
+Accept: */*
+Cache-Control: no-cache
+abc: 12
+
+<> 2020-09-09T104859-3.404.html
+
+###
+
+GET http://localhost:8080/hc
+Accept: */*
+Cache-Control: no-cache
+abc: 12
+
+<> 2020-09-09T104859-2.404.html
+
+###
+
+GET http://localhost:8080/hc
+Accept: */*
+Cache-Control: no-cache
+abc: 12
+
+<> 2020-09-09T104859-1.404.html
+
+###
+
+GET http://localhost:8080/hc
+Accept: */*
+Cache-Control: no-cache
+abc: 12
+
+<> 2020-09-09T104859.404.html
+
+###
+
+GET http://localhost:8080/hc
+Accept: */*
+Cache-Control: no-cache
+abc: 12
+
+<> 2020-09-09T104857.404.html
+
+###
+
+GET http://localhost:8080/hc
+Accept: */*
+Cache-Control: no-cache
+abc: 12
+hhh: 12
+
+<> 2020-09-09T104846.200.html
+
+###
+
+POST http://localhost:8080/hc
+Accept: */*
+Cache-Control: no-cache
+abc: 12
+hhh: 12
+
+<> 2020-09-09T104842.405.html
+
+###
+
+POST http://localhost:8080/hc
+Accept: */*
+Cache-Control: no-cache
+abc: 12
+
+<> 2020-09-09T104826.405.html
+
+###
+
+POST http://localhost:8080/hc
+Accept: */*
+Cache-Control: no-cache
+abc: 123
+
+<> 2020-09-09T104817.405.html
+
+###
+
+POST http://localhost:8080/aaa/11/bbb/ada?add=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-09T094917.200.html
+
+###
+
+POST http://localhost:8080/api/v1/std?add=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-09T093338.200.html
+
+###
+
+POST http://localhost:8080/api/v1/std?add=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-09T093309.200.html
+
+###
+
+POST http://localhost:8080/api/v1/student
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-09T093256.200.html
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-09T093239.500.html
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-09T093238.500.html
+
+###
+
+GET http://localhost:8080/api/v1/student
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-09T093235.405.html
+
+###
+
+PUT http://localhost:8080/api/v1/student
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-08T120009.500.html
+
+###
+
+POST http://localhost:8080/api/v1/student
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-08T115959.200.html
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-08T115946.500.html
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-08T115945.500.html
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-08T115944-1.500.html
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-08T115944.500.html
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-08T115943-4.500.html
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-08T115943-3.500.html
+
+###
+
+GET http://localhost:8080/api/v1/students
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-08T115943-2.500.html
+
+###
+
