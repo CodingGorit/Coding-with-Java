@@ -6,4 +6,16 @@
 > 整理一下 在开发当中，常用的到的配置类  
 
 ### 三、Swagger2
+<<<<<<< HEAD
 > SpringBoot 开发当中如何整合 Swagger2
+=======
+> SpringBoot 开发当中如何整合 Swagger2  
+
+### 四、SpringBoot-aop （2020年9月13日） 
+> SpringBoot 整合 aop     
+1. 项目为使用数据库
+2. 使用了两个简单的方法完成 aop 的测试  
+    - 根据id查询用户（无返回值）
+    - 根据id删除用户
+
+>>>>>>> SpringBoot
