@@ -152,7 +152,7 @@ verify code 由 servlet 生成
 4. 整合 Spring Data JPA  构建 REST API   
 5. 整合 MyBatis-plus （以后有空再说）
 
-### 4.2 SpringBoot 全局处理配置  （2020 7 19）
+### 4.2 SpringBoot 全局处理配置  （2020 9 13）
 1. SpringBoot 配置全局异常处理  
 2. SpringBoot 整合 Java 配置类  
 3. SpringBoot 整合 Swagger2    
