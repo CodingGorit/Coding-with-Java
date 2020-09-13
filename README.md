@@ -155,7 +155,8 @@ verify code 由 servlet 生成
 ### 4.2 SpringBoot 全局处理配置  （2020 7 19）
 1. SpringBoot 配置全局异常处理  
 2. SpringBoot 整合 Java 配置类  
-3. SpringBoot 整合 Swagger2  
+3. SpringBoot 整合 Swagger2    
+4. SpringBoot 整合 aop
   
 ### 4.3 SpringBoot 整合安全框架 （2020 8 17）    
 1. SpringBoot 整合 Shiro 框架
