@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- mybatis 的基础配置文件 -->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <setting name="useGeneratedKeys" value="true"/>
+    </settings>
+    
+    <typeAliases>
+<!--        <typeAlias type="cn.gorit.entity.Student" alias="student"></typeAlias>-->
+        <package name="cn.gorit.entity"/> <!-- 默认的别名是首字母小写 -->
+    </typeAliases>
+    <environments default="dev">
+        <environment id="dev">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=utf8"/>
+                <property name="username" value="root"/>
+                <property name="password" value=""/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="./StudentMapper.xml"/>
+        <mapper resource="./StudentClazzMapper.xml"/>
+    </mappers>
+</configuration>
