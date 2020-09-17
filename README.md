@@ -137,12 +137,13 @@ verify code 由 servlet 生成
 #### 3.2.2 SpringMVC 
 1. 增加了一个 SpringMVC 入门程序 （2020年9月7日添加）  
 
-#### 3.2.3 MyBatis
-> 待更新
+#### 3.2.3 MyBatis （2020年9月17日 更新）
+1. mybatis-day1 （环境搭建+crud+xml）  
+2. mybatis-day2 （高级用法）
 
 #### 3.2.4 SSM 整合  
-1. 一个 SSM 整合方案
-
+1. SSM （Spring5 + SpringMVC + MyBatis + c3p0）  注解开发
+2. SSM （Spring5 + SpringMVC + MyBatis + Druid） XML + 注解开发
 
 # 四、SpringBoot_study  (2020 6 16 更新)
 ### 4.1 SpringBoot 整合持久层  （2020 7 7 基本更新完毕）
