@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ad6d38b-c0b5-43e3-9af4-eb1190a4e3af" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\软件\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hWpdxGk8Py5PvHnVriNqJ7Cxx3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2&#10;mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\workspace\mybatis\mybatis-day1\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\workspace\mybatis\mybatis-day1\src\main\resources" />
+      <recent name="D:\Java\workspace\mybatis\mybatis-day1\src\main\java\cn\gorit\mapper" />
+      <recent name="D:\Java\workspace\mybatis\mybatis-day1\src\main\java\cn\gorit\entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.gorit.test.Test" />
+      <module name="mybatis-day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.gorit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ad6d38b-c0b5-43e3-9af4-eb1190a4e3af" name="Default Changelist" comment="" />
+      <created>1600136796270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600136796270</updated>
+      <workItem from="1600136797729" duration="5534000" />
+      <workItem from="1600219946310" duration="5829000" />
+      <workItem from="1600307236782" duration="5976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="337" y="360" width="714" height="319" key="#SQL_Dialects" timestamp="1600313660451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="337" y="360" width="714" height="319" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1600313660451" />
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600313214460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600313214460" />
+    <state x="1157" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600137418577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1157" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600137418577" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1600312015231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600312015231" />
+    <state width="1246" height="356" key="GridCell.Tab.0.bottom" timestamp="1600313474110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1246" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600313474110" />
+    <state width="1246" height="356" key="GridCell.Tab.0.center" timestamp="1600313474110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1246" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600313474110" />
+    <state width="1246" height="356" key="GridCell.Tab.0.left" timestamp="1600313474110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1246" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600313474110" />
+    <state width="1246" height="356" key="GridCell.Tab.0.right" timestamp="1600313474110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1246" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600313474110" />
+    <state width="1246" height="336" key="GridCell.Tab.1.bottom" timestamp="1600142426308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1246" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600142426308" />
+    <state width="1246" height="336" key="GridCell.Tab.1.center" timestamp="1600142426308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1246" height="336" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600142426308" />
+    <state width="1246" height="336" key="GridCell.Tab.1.left" timestamp="1600142426307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1246" height="336" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600142426307" />
+    <state width="1246" height="336" key="GridCell.Tab.1.right" timestamp="1600142426308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1246" height="336" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600142426308" />
+    <state x="0" y="0" width="921" height="652" key="dock-window-1" timestamp="1600312111806">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="921" height="652" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1600312111806" />
+    <state x="-11" y="10" width="921" height="652" key="dock-window-2" timestamp="1600312342812">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-11" y="10" width="921" height="652" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1600312342812" />
+    <state x="885" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1600226827670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="885" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600226827670" />
+  </component>
+</project>
