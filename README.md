@@ -1,9 +1,8 @@
 # Coding-with-Java  项目介绍  
 
-
 项目地址：[Coding-with-Java](https://github.com/CodingGorit/Coding-with-Java)
 项目介绍：
-> Coding-with-Java 是一个面向新手的 Java 从入门到进阶的项目，内容主要涉及 Java SE，Java EE 和 一些企业级框架的学习及使用，致力于帮助编程新手解决学习完基础语法，没有合适的项目练手。以及知识点巩固。后期会不定期更新一些面试题。此项目将会保持持续更新，目前主要由我一个人在维护，项目更新了分支，大家可以根据需要下载对应的部分
+> Coding-with-Java 是一个面向新手的 Java 从入门到进阶的项目，内容主要涉及 Java SE，Java EE 和 一些企业级框架的学习及使用，致力于帮助编程新手解决学习完基础语法，没有合适的项目练手。以及知识点巩固。后期会不定期更新一些面试题。此项目将会保持持续更新，目前主要由我一个人在维护。
 
 
 Java项目整合目录:  
@@ -130,9 +129,10 @@ verify code 由 servlet 生成
 2. 项目采用 idea + Maven 搭建
 3. 项目采用了一个简单的登录示例演示 SSH 整合的实现     
 
-### 3.2 Spring SpringMVC Mbatis 框架 （SSM 篇）  
+### 3.2 Spring SpringMVC MyBatis 框架 （SSM 篇）  
 #### 3.2.1 Spring  
-> 待更新
+1. day1-ioc
+2. day2-aop
 
 #### 3.2.2 SpringMVC 
 1. 增加了一个 SpringMVC 入门程序 （2020年9月7日添加）  
@@ -162,3 +162,11 @@ verify code 由 servlet 生成
 ### 4.3 SpringBoot 整合安全框架 （2020 8 17）    
 1. SpringBoot 整合 Shiro 框架
 2. SpringBoot 整合 JWT 框架  
+
+
+
+### 更新记录
+
+- 更新了 JavaEE（SSM）部分内容 —— 2020年9月17日
+
+- 项目更新了分支，大家可以根据需要下载对应的部分
