@@ -158,10 +158,9 @@ verify code 由 servlet 生成
 
 # 四、SpringBoot_study  (2020 6 16 更新)
 ### 4.1 SpringBoot 整合持久层  （2020 7 7 基本更新完毕）
-=======
 ### 3.2 SpringBoot_study  (2020 6 16 更新)
 #### 3.2.1 SpringBoot 整合持久层  （2020 9 20新增多数据源）
->>>>>>> SpringBoot
+> SpringBoot
 1. 整合 JdbcTemplate   
 2. 整合 MyBatis    
 3. 整合 Spring Data JPA   
@@ -182,8 +181,8 @@ verify code 由 servlet 生成
 
 
 # 五、更新记录
+- 更新了 SpringBoot 多数据源 —— 2020年9月20日
 
 - 更新了 JavaEE（SSM）部分内容 —— 2020年9月17日
-    > 个人精力有限，复习到哪里，就补充到哪里
 
-- 项目更新了分支，大家可以根据需要下载对应的部分
+- 项目更新了分支，大家可以根据需要下载对应的部分 —— 2020年8月
