@@ -130,12 +130,13 @@ verify code 由 servlet 生成
 3. 项目采用了一个简单的登录示例演示 SSH 整合的实现  
 
 ### 3.2 SpringBoot_study  (2020 6 16 更新)
-#### 3.2.1 SpringBoot 整合持久层  （2020 7 7 基本更新完毕）
+#### 3.2.1 SpringBoot 整合持久层  （2020 9 20新增多数据源）
 1. 整合 JdbcTemplate   
 2. 整合 MyBatis    
 3. 整合 Spring Data JPA   
 4. 整合 Spring Data JPA  构建 REST API   
 5. 整合 MyBatis-plus （以后有空再说）
+6. 整合 多数据源 （MyBatis + Druid）
 
 #### 3.2.2 SpringBoot 全局处理配置  （2020 7 19）
 1. SpringBoot 配置全局异常处理  
