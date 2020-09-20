@@ -5,12 +5,18 @@
 1. SpringBoot 整合 JdbcTemplate   
 2. SpringBoot 整合 MyBatis   
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. SpringBoot 整合 Spring Data JPA  
 4. SpringBoot 整合 Spring Data JPA  构建 REST 服务  
 5. SpringBoot 整合 MyBatis-plus （待更新）
 =======
 3. SpringBoot 整合 Spring Data JPA  构建 REST 服务  
 4. SpringBoot 整合 MyBatis-plus （待更新）
+>>>>>>> SpringBoot
+=======
+3. SpringBoot 整合 Spring Data JPA （JPA、JPA-REST) 构建 REST 服务  
+4. SpringBoot 整合 MyBatis-plus （待更新）
+5. SpringBoot 整合 多数据源 （MyBatis + Druid）
 >>>>>>> SpringBoot
 
 ### 二、common （公共配置）  
