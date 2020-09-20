@@ -157,9 +157,7 @@ verify code 由 servlet 生成
 2. SSM （Spring5 + SpringMVC + MyBatis + Druid） XML + 注解开发
 
 # 四、SpringBoot_study  (2020 6 16 更新)
-### 4.1 SpringBoot 整合持久层  （2020 7 7 基本更新完毕）
-### 3.2 SpringBoot_study  (2020 6 16 更新)
-#### 3.2.1 SpringBoot 整合持久层  （2020 9 20新增多数据源）
+### 4.1 SpringBoot 整合持久层  （2020 9 20新增多数据源）
 > SpringBoot
 1. 整合 JdbcTemplate   
 2. 整合 MyBatis    
@@ -181,7 +179,7 @@ verify code 由 servlet 生成
 
 
 # 五、更新记录
-- 更新了 SpringBoot 多数据源 —— 2020年9月20日
+- 更新了 SpringBoot 整合多数据源（MyBatis + Druid） —— 2020年9月20日
 
 - 更新了 JavaEE（SSM）部分内容 —— 2020年9月17日
 
