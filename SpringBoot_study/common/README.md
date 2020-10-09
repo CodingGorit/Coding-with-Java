@@ -15,3 +15,7 @@
     - 根据id查询用户（无返回值）
     - 根据id删除用户
 
+### 五、SpringBoot-webSocket （2020年10月9日）
+> SpringBoot 整合 WebSocket
+1. 实现了一对一聊天
+2. 实现了管理员广播聊天
