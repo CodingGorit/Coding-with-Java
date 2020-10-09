@@ -138,7 +138,6 @@ verify code 由 servlet 生成
 2. 项目采用 idea + Maven 搭建
 3. 项目采用了一个简单的登录示例演示 SSH 整合的实现     
 
-<<<<<<< HEAD
 ### 3.2 Spring SpringMVC MyBatis 框架 （SSM 篇）  
 #### 3.2.1 Spring  
 1. day1-ioc
@@ -166,11 +165,12 @@ verify code 由 servlet 生成
 5. 整合 MyBatis-plus （以后有空再说）
 6. 整合 多数据源 （MyBatis + Druid）
 
-### 4.2 SpringBoot 全局处理配置  （2020 9 13）
+### 4.2 SpringBoot 全局处理配置  （2020 10 9）
 1. SpringBoot 配置全局异常处理  
 2. SpringBoot 整合 Java 配置类  
 3. SpringBoot 整合 Swagger2    
 4. SpringBoot 整合 aop
+5. SpringBoot 整合 WebSocket
   
 ### 4.3 SpringBoot 整合安全框架 （2020 8 17）    
 1. SpringBoot 整合 Shiro 框架
