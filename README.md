@@ -2,7 +2,7 @@
 
 项目地址：[Coding-with-Java](https://github.com/CodingGorit/Coding-with-Java)
 项目介绍：
-> Coding-with-Java 是一个面向新手的 Java 从入门到进阶的项目，内容主要涉及 Java SE，Java EE 和 一些企业级框架的学习及使用，致力于帮助编程新手解决学习完基础语法，没有合适的项目练手。以及知识点巩固。后期会不定期更新一些面试题。此项目将会保持持续更新，目前主要由我一个人在维护。
+> Coding-with-Java 是一个面向新手的 Java 从入门到进阶的项目，内容主要涉及 Java SE，Java EE 和 一些企业级框架的学习及使用，致力于帮助编程新手解决学习完基础语法，没有合适的项目练手。以及知识点巩固。后期会不定期更新一些面试题。此项目将会保持持续更新，目前主要由我一个人在维护。 <span style="float:right">edit by CodingGorit on 2020/6</span>
 
 
 Java项目整合目录:  
@@ -20,6 +20,7 @@ Java项目整合目录:
 1. SSH 系列 （更新完毕）  
 2. SSM 系列  (更新完毕)
 3. SpringBoot 系列  （更新中）
+4. SpringCloud 系列 （待更新）
 
 
 
@@ -69,15 +70,15 @@ Tips:
 
 ### 1.3 Spring 全家桶系列  (2020 9 17 更新)
 1. [Spring 系列]()  
-    1.1 [Spring 框架概述](https://www.yuque.com/u300253/learnjava/wc4rsg)
-    1.2 [Spring IoC注入](https://www.yuque.com/u300253/learnjava/ywr56y)
-    1.3 [Spring AOP](https://www.yuque.com/u300253/learnjava/bw9kdq)
-2. [Spring MVC 系列](https://www.yuque.com/u300253/learnjava/pqqu30)  
+    1.1 [Spring 框架概述](https://www.yuque.com/u300253/learnjava/wc4rsg)  
+    1.2 [Spring IoC注入](https://www.yuque.com/u300253/learnjava/ywr56y)  
+    1.3 [Spring AOP](https://www.yuque.com/u300253/learnjava/bw9kdq)  
+2. [Spring MVC 系列](https://www.yuque.com/u300253/learnjava/pqqu30)    
     2.1 [SpringMVC 第一弹](https://www.yuque.com/u300253/learnjava/pqqu30)  
     2.2 [SpringMVC 第二弹](https://www.yuque.com/u300253/learnjava/uytf6x)  
-    2.3 [SpringMVC SSM 整合](https://www.yuque.com/u300253/learnjava/ckth8z)  
-    2.4 [SpringMVC 执行原理](https://www.yuque.com/u300253/learnjava/sbsgk0)
-    2.5 [SSM 整合快速版](https://www.yuque.com/u300253/learnjava/bqe80l)
+    2.3 [SpringMVC SSM 整合](https://www.yuque.com/u300253/learnjava/ckth8z)    
+    2.4 [SpringMVC 执行原理](https://www.yuque.com/u300253/learnjava/sbsgk0)  
+    2.5 [SSM 整合快速版](https://www.yuque.com/u300253/learnjava/bqe80l)  
 3. [SpringBoot 系列]()   
     一、SpringBoot 基础整合  
         3.1 [运行你的第一个 SpringBoot 程序](https://www.yuque.com/u300253/learnjava/fa4gbl)  
@@ -87,11 +88,15 @@ Tips:
         3.5 [SpringBoot 整合 Swagger2](https://www.yuque.com/u300253/learnjava/egvrx8)  
     二、SpringBoot 整合安全框架  
         3.6 [SpringBoot 整合 Shiro](https://www.yuque.com/u300253/learnjava/uua9sb)  
-        3.7 [SpringBoot 整合JWT](https://www.yuque.com/u300253/learnjava/qsu9ni)
-4. [ORM 框架系列]()
-    一、MyBatis 框架
-    4.1 [MyBatis 框架简介](https://www.yuque.com/u300253/learnjava/ihsmbh)
-    4.2 [MyBatis 高级查询](https://www.yuque.com/u300253/learnjava/fu3eab)
+        3.7 [SpringBoot 整合JWT](https://www.yuque.com/u300253/learnjava/qsu9ni)  
+    三、SpringBoot 高级整合    
+        3.8 [SpringBoot 整合 WebSocket](https://www.yuque.com/u300253/learnjava/gbmw8g)  
+    五、SpringCloud 相关  
+        3.1x [分布式微服务基础](https://www.yuque.com/u300253/learnjava/plhlyg)
+4. [ORM 框架系列]()  
+    一、MyBatis 框架  
+    4.1 [MyBatis 框架简介](https://www.yuque.com/u300253/learnjava/ihsmbh)  
+    4.2 [MyBatis 高级查询](https://www.yuque.com/u300253/learnjava/fu3eab)  
 
 # 二、 Java 基础项目  
 ### 2.1 Java SE 篇章  
@@ -179,6 +184,8 @@ verify code 由 servlet 生成
 
 
 # 五、更新记录
+- 更新了 SpringBoot 整合 WebSocket，并且修改部分分支内容 —— 2020年10月9日
+
 - 更新了 SpringBoot 整合多数据源（MyBatis + Druid） —— 2020年9月20日
 
 - 更新了 JavaEE（SSM）部分内容 —— 2020年9月17日

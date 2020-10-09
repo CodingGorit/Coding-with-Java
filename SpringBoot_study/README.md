@@ -13,6 +13,7 @@
 2. Swagger 在线 API 文档生成学习  （更新完毕）  
 3. 全局配置类 （更新完毕）  
 4. SpringBoot 整合 aop （2020年9月13日更新）
+5. SpringBoot 整合 WebSocket （2020年10月9日）
 
 ### 三、security （安全、权限管理框架）  
 1. Shiro 安全框架  
