@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-es-api/SpringBoot-es-api.iml" filepath="$PROJECT_DIR$/SpringBoot-es-api/SpringBoot-es-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-es-jd/SpringBoot-es-jd.iml" filepath="$PROJECT_DIR$/SpringBoot-es-jd/SpringBoot-es-jd.iml" />
+    </modules>
+  </component>
+</project>
