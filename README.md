@@ -22,7 +22,18 @@ Java项目整合目录:
 3. SpringBoot 系列  （更新中）
 4. SpringCloud 系列 （待更新）
 
+四、ORM 框架系列
+1. mybatis 框架
+2. hibernate 框架
 
+五、面试系列
+1. 笔试，面试题目整理
+
+六、数据库部分
+1. 关系型数据库
+2. 非关系型数据库
+
+七、设计模式
 
 # 一、Java 从入门到精通学习笔记  
 see [Java 从入门到精通](https://www.yuque.com/u300253/learnjava)
@@ -39,8 +50,7 @@ Tips:
     1.5 [流程控制 与 循环](https://www.yuque.com/u300253/learnjava/java_se_basic_05)  
     1.6 [数组的基本使用](https://www.yuque.com/u300253/learnjava/java_se_basic_06)  
 
-2. [JavaSE 面向对象篇（类的基本结构）](https://www.yuque.com/u300253/learnjava/java_se_02)
-
+2. [JavaSE 面向对象篇（类的基本结构）](https://www.yuque.com/u300253/learnjava/java_se_02)  
 3. [Java SE （面向对象篇 ——封装、继承、多态、抽象）](https://www.yuque.com/u300253/learnjava/java_se_03)
 
 4. [Java 内置 API 学习](https://www.yuque.com/u300253/learnjava/java_se_04)
@@ -80,24 +90,39 @@ Tips:
     2.4 [SpringMVC 执行原理](https://www.yuque.com/u300253/learnjava/sbsgk0)  
     2.5 [SSM 整合快速版](https://www.yuque.com/u300253/learnjava/bqe80l)  
 3. [SpringBoot 系列]()   
-    一、SpringBoot 基础整合  
-        3.1 [运行你的第一个 SpringBoot 程序](https://www.yuque.com/u300253/learnjava/fa4gbl)  
-        3.2 [SpringBoot Web 开发整合](https://www.yuque.com/u300253/learnjava/gah719)  
-        3.3 [SpringBoot 全局异常处理](https://www.yuque.com/u300253/learnjava/zh4czx)  
-        3.4 [SpringBoot 整合持久层技术](https://www.yuque.com/u300253/learnjava/piot24)   
-        3.5 [SpringBoot 整合 Swagger2](https://www.yuque.com/u300253/learnjava/egvrx8)  
-    二、SpringBoot 整合安全框架  
-        3.6 [SpringBoot 整合 Shiro](https://www.yuque.com/u300253/learnjava/uua9sb)  
-        3.7 [SpringBoot 整合JWT](https://www.yuque.com/u300253/learnjava/qsu9ni)  
-    三、SpringBoot 高级整合    
-        3.8 [SpringBoot 整合 WebSocket](https://www.yuque.com/u300253/learnjava/gbmw8g)  
-    五、SpringCloud 相关  
-        3.1x [分布式微服务基础](https://www.yuque.com/u300253/learnjava/plhlyg)
-4. [ORM 框架系列]()  
-    一、MyBatis 框架  
-    4.1 [MyBatis 框架简介](https://www.yuque.com/u300253/learnjava/ihsmbh)  
-    4.2 [MyBatis 高级查询](https://www.yuque.com/u300253/learnjava/fu3eab)  
+一、SpringBoot 基础整合  
+     3.1 [运行你的第一个 SpringBoot 程序](https://www.yuque.com/u300253/learnjava/fa4gbl)  
+     3.2 [SpringBoot Web 开发整合](https://www.yuque.com/u300253/learnjava/gah719)  
+     3.3 [SpringBoot 全局异常处理](https://www.yuque.com/u300253/learnjava/zh4czx)  
+     3.4 [SpringBoot 整合持久层技术](https://www.yuque.com/u300253/learnjava/piot24)   
+    3.5 [SpringBoot 整合 Swagger2](https://www.yuque.com/u300253/learnjava/egvrx8)  
+二、SpringBoot 整合安全框架  
+    3.6 [SpringBoot 整合 Shiro](https://www.yuque.com/u300253/learnjava/uua9sb)  
+    3.7 [SpringBoot 整合JWT](https://www.yuque.com/u300253/learnjava/qsu9ni)  
+三、SpringBoot 高级整合    
+    3.8 [SpringBoot 整合 WebSocket](https://www.yuque.com/u300253/learnjava/gbmw8g)     
+    3.9 [SpringBoot 整合定时任务](https://www.yuque.com/u300253/learnjava/arhauv)  
+    3.10 [SpringBoot 整合消息队列【待更新】](https://www.yuque.com/u300253/learnjava/ta42m8)   
+    3.11 [SpringBoot 整合 ElasticSearch](https://www.yuque.com/u300253/learnjava/sxhapw)  
+四、SpringBoot 应用技巧  
+    1. [SpringBoot 实现防止表单重复提交](https://www.yuque.com/u300253/learnjava/mmsgo6)  
+    2. [SpringBoot 整合 redis 技巧](https://www.yuque.com/u300253/learnjava/lehaln)    
+五、SpringCloud 相关  
+ 3.1x [分布式微服务基础](https://www.yuque.com/u300253/learnjava/plhlyg)
 
+### 1.4 [ORM 框架系列]()  
+MyBatis 框架   
+- 4.1 [MyBatis 框架简介](https://www.yuque.com/u300253/learnjava/ihsmbh)  
+- 4.2 [MyBatis 高级查询](https://www.yuque.com/u300253/learnjava/fu3eab)    
+Hibernate 框架  
+
+### 1.5 面试笔试系列  
+~
+
+### 1.6 数据库部分  
+
+### 1.7 设计模式   
+7.1  [设计模式总览](https://www.yuque.com/u300253/learnjava/hg11l4)
 # 二、 Java 基础项目  
 ### 2.1 Java SE 篇章  
 #### 2.1.1 基于 Java 实现简单的注册登录系统     
@@ -115,7 +140,7 @@ Tips:
 verify code 由 servlet 生成  
 
 #### 2.2.2 学生管理系统 Java EE 版本 （简易 Java Web）   
-(StudentManagementAdvance  )  
+(StudentManagementAdvance)  
 > 此版本是在 Java SE 的基础上进行了升级， 数据库不变，有三张表。可以进行简单的数据添加，修改，和删除的功能  
 
 #### 2.2.3 Java EE 之简易购物车项目  (ShoppingMall)
@@ -135,7 +160,7 @@ verify code 由 servlet 生成
 
 #### 3.1.2 新增 Struct2 + hibernate 整合项目 (2020 6 2更新)   
 1. 使用 Struct2 框架实现 MVC 的功能   
-2. 使用 hibernate 实现 ORM 的功能    
+2. 使用 hibernate 实现 ORM 的功能     
 3. 以学生管理系统为例，整合两个框架的使用    
 
 #### 3.1.3 新增 struct2 + hibernate5 + Spring5 整合项目 （2020 6 14日更新）  
@@ -162,12 +187,12 @@ verify code 由 servlet 生成
 
 # 四、SpringBoot_study  (2020 6 16 更新)
 ### 4.1 SpringBoot 整合持久层  （2020 9 20新增多数据源）
-> SpringBoot
+>  SpringBoot 整合持久层相关
 1. 整合 JdbcTemplate   
 2. 整合 MyBatis    
 3. 整合 Spring Data JPA   
 4. 整合 Spring Data JPA  构建 REST API   
-5. 整合 MyBatis-plus （以后有空再说）
+5. 整合 MyBatis-plus
 6. 整合 多数据源 （MyBatis + Druid）
 
 ### 4.2 SpringBoot 全局处理配置  （2020 10 9）
@@ -181,9 +206,11 @@ verify code 由 servlet 生成
 1. SpringBoot 整合 Shiro 框架
 2. SpringBoot 整合 JWT 框架  
 
-
+PS： 实际上 SpringBoot 的项目远比这个更多
 
 # 五、更新记录
+- 更新了部分学习笔记内容，主要修改 master 分支内容，新增 SpringBoot 项目模块 — 2020年10月23日
+
 - 更新了 SpringBoot 整合 WebSocket，并且修改部分分支内容 —— 2020年10月9日
 
 - 更新了 SpringBoot 整合多数据源（MyBatis + Druid） —— 2020年9月20日
