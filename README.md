@@ -186,6 +186,12 @@ verify code 由 servlet 生成
 2. SSM （Spring5 + SpringMVC + MyBatis + Druid） XML + 注解开发
 
 # 四、SpringBoot_study  (2020 6 16 更新)
+### 4.0 advanced （高级整合篇）
+1. SpringBoot 整合 ElasticSearch
+    - SpringBoot-es-api es api 的学习
+    - SpringBoot-es-jd 京东爬虫实战搜索
+2. SpringBoot 整合定时任务
+3. SpringBoot 整合 WebSocket
 ### 4.1 SpringBoot 整合持久层  （2020 9 20新增多数据源）
 >  SpringBoot 整合持久层相关
 1. 整合 JdbcTemplate   
@@ -194,17 +200,26 @@ verify code 由 servlet 生成
 4. 整合 Spring Data JPA  构建 REST API   
 5. 整合 MyBatis-plus
 6. 整合 多数据源 （MyBatis + Druid）
-
-### 4.2 SpringBoot 全局处理配置  （2020 10 9）
-1. SpringBoot 配置全局异常处理  
-2. SpringBoot 整合 Java 配置类  
-3. SpringBoot 整合 Swagger2    
-4. SpringBoot 整合 aop
-5. SpringBoot 整合 WebSocket
+7. 整合 redis 
   
-### 4.3 SpringBoot 整合安全框架 （2020 8 17）    
-1. SpringBoot 整合 Shiro 框架
-2. SpringBoot 整合 JWT 框架  
+### 4.2 SpringBoot 全局处理配置  （2020 10 9） 
+1. SpringBoot 配置全局异常处理   
+2. SpringBoot 整合 Java 配置类   
+3. SpringBoot 整合 Swagger2     
+4. SpringBoot 整合 aop 
+  
+### 4.3 SpringBoot 整合安全框架 （2020 8 17）      
+1. SpringBoot 整合 Shiro 框架  
+2. SpringBoot 整合 JWT 框架   
+
+### 4.4 templates 模板语法 （2020 10 23）  
+模板语法看看也好  
+1. SpringBoot + tyhmeleaf + jpa 实现的 CRUD  
+
+### 4.5 application （应用）
+对应 SpringBoot 应用篇  
+1. SpringBoot 防止表单重复提交
+2. SpringBoot 整合邮件发布 
 
 PS： 实际上 SpringBoot 的项目远比这个更多
 

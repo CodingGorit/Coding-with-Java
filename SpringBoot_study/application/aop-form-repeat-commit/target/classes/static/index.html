@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>查询所有用户</h3>
+    <a href="/user">查询所有用户</a>
+    <br>
+
+    <h3>根据 ID 查询用户</h3>
+<!--    <form action="/user/"-->
+    请输入用户ID：<input type="text" id="id" placeholder="请输入用户的 ID">
+    <button id="btn-search" onclick="search()">查询</button>
+
+    <h3>添加用户</h3>
+    <form action="/user" method="post">
+        用户 id：<input type="text" name="id"><br>
+        用户名称：<input type="text" name="name"><br>
+        用户年龄：<input type="text" name="age"><br>
+        <input type="submit" value="添加">
+    </form>
+
+    <script type="text/javascript">
+        function search() {
+            let userId = document.getElementById("id").value;
+            console.log(userId)
+            window.location.href = 'http://localhost:8080/user/'+ parseInt(userId)
+        }
+    </script>
+</body>
+</html>
