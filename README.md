@@ -27,9 +27,9 @@ Tips:
     1.9 [SpringBoot 整合定时任务](https://www.yuque.com/u300253/learnjava/arhauv)
     1.10 [SpringBoot 整合消息队列](https://www.yuque.com/u300253/learnjava/ta42m8)  
     1.11 [SpringBoot 整合 ElasticSearch](https://www.yuque.com/u300253/learnjava/sxhapw)   
-- 四、SpringBoot 应用
-    1.12 [SpringBoot 防止表单重复提交](https://www.yuque.com/u300253/learnjava/mmsgo6)
-    1.13 [SpringBoot 整合 redis](https://www.yuque.com/u300253/learnjava/lehaln)
+- 四、SpringBoot 应用  
+    1.12 [SpringBoot 防止表单重复提交](https://www.yuque.com/u300253/learnjava/mmsgo6)  
+    1.13 [SpringBoot 整合 redis](https://www.yuque.com/u300253/learnjava/lehaln)  
 
 
 
