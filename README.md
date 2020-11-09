@@ -41,7 +41,7 @@ Tips:
 2. SpringBoot 整合定时任务    
 3. SpringBoot 整合 WebSocket  
 
-#### 2.2.1 SpringBoot 整合持久层  （2020 9 20新增多数据源）
+#### 2.2.1 SpringBoot 整合持久层  （2020 11 8新增多数据源）
 1. 整合 JdbcTemplate    
 2. 整合 MyBatis    
 3. 整合 Spring Data JPA    
