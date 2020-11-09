@@ -225,6 +225,8 @@ verify code 由 servlet 生成
 PS： 实际上 SpringBoot 的项目远比这个更多
 
 # 五、更新记录
+- 更新了 SpringBoot 整合 MongoDB - 2020年11月9日
+
 - 更新了部分学习笔记内容，主要修改 master 分支内容，新增 SpringBoot 项目模块 — 2020年10月23日
 
 - 更新了 SpringBoot 整合 WebSocket，并且修改部分分支内容 —— 2020年10月9日
