@@ -49,6 +49,7 @@ Tips:
 5. 整合 MyBatis-plus + redis
 6. 整合 多数据源 （MyBatis + Druid） 
 7. 整合 redis
+8. 整合 mongoDB
 
 #### 2.2.2 SpringBoot 全局处理配置  （2020 10 9）
 1. SpringBoot 配置全局异常处理   

@@ -5,6 +5,7 @@
     - SpringBoot-es-jd  京东爬虫实战搜索
 2. SpringBoot 整合定时任务  
 3. SpringBoot 整合 WebSocket 
+
 ### 二、dao  （SpringBoot 持久层）   
 学习文档：[SpringBoot 整合持久层操作](https://www.yuque.com/u300253/learnjava/piot24)
 1. 整合 JdbcTemplate    
@@ -14,6 +15,7 @@
 5. 整合 MyBatis-plus + redis
 6. 整合 多数据源 （MyBatis + Druid） 
 7. 整合 redis
+8. 整合 mongoDB
 
 ### 三、common （公共配置）  
 1. 全局异常处理  +  统一结果集封装 （更新完毕）
