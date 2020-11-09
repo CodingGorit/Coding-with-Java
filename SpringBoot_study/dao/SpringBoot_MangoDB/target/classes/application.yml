@@ -1,0 +1,22 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
+# 应用名称
+spring:
+  application:
+    name: demo
+  resources: # spring 静态资源扫描路径
+    static-locations: classpath:/static/
+  data:
+    mongodb:
+      database: test
+      host: localhost
+      port: 27017
+      #authentication-database: admin       # 烟瘴登录信息库
+      #username:
+      #password:
+
+
+
+
+

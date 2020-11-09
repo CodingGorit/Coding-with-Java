@@ -5,8 +5,10 @@
 1. SpringBoot 整合 JdbcTemplate   
 2. SpringBoot 整合 MyBatis   
 3. SpringBoot 整合 Spring Data JPA （JPA、JPA-REST) 构建 REST 服务  
-4. SpringBoot 整合 MyBatis-plus （待更新）
+4. SpringBoot 整合 MyBatis-plus 
 5. SpringBoot 整合 多数据源 （MyBatis + Druid）
+6. SpringBoot 整合 redis
+7. SpringBoot 整合 MongoDB
 
 ### 二、common （公共配置）  
 1. 全局异常处理  +  统一结果集封装 （更新完毕）

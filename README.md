@@ -192,7 +192,7 @@ verify code 由 servlet 生成
     - SpringBoot-es-jd 京东爬虫实战搜索
 2. SpringBoot 整合定时任务
 3. SpringBoot 整合 WebSocket
-### 4.1 SpringBoot 整合持久层  （2020 9 20新增多数据源）
+### 4.1 SpringBoot 整合持久层  （2020 11 9新增多数据源）
 >  SpringBoot 整合持久层相关
 1. 整合 JdbcTemplate   
 2. 整合 MyBatis    
@@ -201,6 +201,7 @@ verify code 由 servlet 生成
 5. 整合 MyBatis-plus
 6. 整合 多数据源 （MyBatis + Druid）
 7. 整合 redis 
+8. 整合 mongoDB
   
 ### 4.2 SpringBoot 全局处理配置  （2020 10 9） 
 1. SpringBoot 配置全局异常处理   
