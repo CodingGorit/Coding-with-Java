@@ -117,12 +117,23 @@ MyBatis 框架
 Hibernate 框架  
 
 ### 1.5 面试笔试系列  
-~
+5.1 JavaSE 基础篇  
+5.2 JavaEE 篇  
+5.3 Spring 框架篇  
+5.4 计算机基础理论 与 操作系统  
+5.5 前端相关  
 
 ### 1.6 数据库部分  
+6.1 关系型数据库   
+    6.1.1 [MySQL原理及优化](https://www.yuque.com/u300253/learnjava/wcu5gq)
+6.2 非关系型数据库
 
 ### 1.7 设计模式   
-7.1  [设计模式总览](https://www.yuque.com/u300253/learnjava/hg11l4)
+7.1  [设计模式总览](https://www.yuque.com/u300253/learnjava/hg11l4)   
+7.2  [适应性设计模式](https://www.yuque.com/u300253/learnjava/xoes5q)  
+    - Iterator 模式  
+    - Adapter 模式
+
 # 二、 Java 基础项目  
 ### 2.1 Java SE 篇章  
 #### 2.1.1 基于 Java 实现简单的注册登录系统     
