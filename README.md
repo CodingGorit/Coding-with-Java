@@ -33,7 +33,8 @@ Java项目整合目录:
 1. 关系型数据库
 2. 非关系型数据库
 
-七、设计模式
+七、设计模式  
+> 已经更新，见分支 GOF
 
 # 一、Java 从入门到精通学习笔记  
 see [Java 从入门到精通](https://www.yuque.com/u300253/learnjava)
@@ -236,6 +237,8 @@ verify code 由 servlet 生成
 PS： 实际上 SpringBoot 的项目远比这个更多
 
 # 五、更新记录
+- 更新了 GOF 设计模式板块，增加了 GOF 分支 - 2021年1月13日。后序考虑增加 SpringCloudAlibaba
+
 - 更新了 SpringBoot 整合 MongoDB - 2020年11月9日
 
 - 更新了部分学习笔记内容，主要修改 master 分支内容，新增 SpringBoot 项目模块 — 2020年10月23日
