@@ -2,6 +2,33 @@
 > 同步更新 [传送门](https://www.yuque.com/u300253/learnjava/ogxg5p)  
 > 如果有想参与文档编写的同学，可以联系我 gorit@qq.com
 
+# 项目目录
+```ts
+一、Java 学习项目文档篇
+    1.1 Java SE
+    1.2 Java EE
+    1.3 Spring 全家桶
+        1.3.1 Spring 基础
+        1.3.2 Spring MVC
+        1.3.3 SpringBoot
+        1.3.4 SpringBoot 应用技巧
+        1.3.5 SpringCloud
+    1.4 ORM
+    1.5 面试 + 笔试
+    1.6 数据库部分
+    1.7 设计模式
+    1.8 Spring Cloud Alibaba
+
+二、Java 项目篇（对应不同的分支）
+ 2.1 Java SE 项目
+ 2.2 Java EE 醒目
+ 2.3 Java EE 企业框架（SSH）
+ 2.4 Java EE 企业框架（SSM）
+ 2.5 SpringBoot
+三、更新日志
+```
+
+# 一、项目文档篇
 ### 1.1 Java SE篇 (2020 6 2 更新)
 1. [JavaSE 基础语法篇](https://www.yuque.com/u300253/learnjava/java_se_01)  
     1.1 [Java 快速入门](https://www.yuque.com/u300253/learnjava/java_se_basic_01)  
@@ -13,7 +40,6 @@
 
 2. [JavaSE 面向对象篇（类的基本结构）](https://www.yuque.com/u300253/learnjava/java_se_02)  
 3. [Java SE （面向对象篇 ——封装、继承、多态、抽象）](https://www.yuque.com/u300253/learnjava/java_se_03)
-
 4. [Java 内置 API 学习](https://www.yuque.com/u300253/learnjava/java_se_04)
 
 5. [Java 修饰符](https://www.yuque.com/u300253/learnjava/java_se_05)
@@ -66,19 +92,19 @@
     3.10 [SpringBoot 整合消息队列【待更新】](https://www.yuque.com/u300253/learnjava/ta42m8)   
     3.11 [SpringBoot 整合 ElasticSearch](https://www.yuque.com/u300253/learnjava/sxhapw)  
 四、SpringBoot 应用技巧  
-    1. [SpringBoot 实现防止表单重复提交](https://www.yuque.com/u300253/learnjava/mmsgo6)  
-    2. [SpringBoot 整合 redis 技巧](https://www.yuque.com/u300253/learnjava/lehaln)    
+    3.12 [SpringBoot 实现防止表单重复提交](https://www.yuque.com/u300253/learnjava/mmsgo6)  
+    3.13 [SpringBoot 整合 redis 技巧](https://www.yuque.com/u300253/learnjava/lehaln)    
 五、SpringCloud 相关  
- 3.1x [分布式微服务基础](https://www.yuque.com/u300253/learnjava/plhlyg)
+    3.14 [分布式微服务基础](https://www.yuque.com/u300253/learnjava/plhlyg)  
 
-### 1.4 [ORM 框架系列]()  
+### 1.4 ORM 框架系列
 MyBatis 框架   
 - 4.1 [MyBatis 框架简介](https://www.yuque.com/u300253/learnjava/ihsmbh)  
 - 4.2 [MyBatis 高级查询](https://www.yuque.com/u300253/learnjava/fu3eab)    
 Hibernate 框架  
 
 ### 1.5 面试笔试系列  
-5.1 JavaSE 基础篇  
+5.1 JavaSE 基础篇 [基础](https://www.yuque.com/u300253/learnjava/cuwogx)  
 5.2 JavaEE 篇  
 5.3 Spring 框架篇  
 5.4 数据库相关
@@ -109,10 +135,21 @@ Hibernate 框架
     - [Abstract Factory 模式 ](https://www.yuque.com/u300253/learnjava/fq7rfm)  
     - [Bridge 模式](https://www.yuque.com/u300253/learnjava/tqvgb8)  
     - [Strategy 模式](https://www.yuque.com/u300253/learnjava/dyudoo)  
-7.5 一致性
+7.5 一致性  
+    - TODO
 
-# 二、 Java 基础项目  
+### 1.8 Spring Cloud Alibaba（2021年6月21日更新）
+1. [Spring Cloud Alibaba 学习概览](https://www.yuque.com/u300253/learnjava/rt5vyc)
+2. [微服务注册中心 nacos 的安装与配置](https://www.yuque.com/u300253/learnjava/aqwd1w)
+3. [本地负载均衡]()
+4. [分布式配置中心]()
+5. [集群部署实现原理]()
+6. [微服务网关 Spring Cloud Gateway]()
+7. [服务持久化、熔断、降级 Sentinel]()
+
+# 二、 Java 项目篇（看对应的分支）
 ### 2.1 Java SE 篇章  
+> 对应 Java-SE 分支
 #### 2.1.1 基于 Java 实现简单的注册登录系统     
 注意：   
 1. 非数据库实现  
@@ -124,6 +161,7 @@ Hibernate 框架
 3. 使用 mysql 为数据库作为数据持久化  
 
 ### 2.2 Java EE 篇章  
+> 对应 Java-EE（Basic）分支
 #### 2.2.1 实现验证码的生成以及验证  (Java With CAPTCHA )  
 verify code 由 servlet 生成  
 
@@ -136,9 +174,10 @@ verify code 由 servlet 生成
 > 此项目为一个简单的 Java EE 小小购物车的项目，它具有最简单的登录，购物车页面展示（分页），添加购物车，下单，付款（使用支付宝沙箱完成此操作）  
 
 
-# 三、Java EE 企业级框架篇  
-### 3.1 Struct2 hibernate spring 框架 （SSH篇）
-#### 3.1.1 新增 Struct2 实现权限管理  （2020 5 19更新）  
+### 2.3 Java EE 企业级框架篇  
+> Java-EE（SSH）分支
+#### 2.3.1 Struct2 hibernate spring 框架 （SSH篇）
+#### 2.3.2  Struct2 实现权限管理  （2020 5 19更新）  
 > 使用 maven 构建 Java EE 项目，并导入 Struct2 依赖，使用 Struct2 的类拦截器实现简易的权限管理功能   
 
 新更新了如下功能   
@@ -146,41 +185,43 @@ verify code 由 servlet 生成
 2. 实现文件上传 + 下载功能  
 3. 提供 struct2 生成验证码的功能   
 
-#### 3.1.2 新增 Struct2 + hibernate 整合项目 (2020 6 2更新)   
+#### 2.3.3 新增 Struct2 + hibernate 整合项目 (2020 6 2更新)   
 1. 使用 Struct2 框架实现 MVC 的功能   
 2. 使用 hibernate 实现 ORM 的功能     
 3. 以学生管理系统为例，整合两个框架的使用    
 
-#### 3.1.3 新增 struct2 + hibernate5 + Spring5 整合项目 （2020 6 14日更新）  
+#### 2.3.4 新增 struct2 + hibernate5 + Spring5 整合项目 （2020 6 14日更新）  
 1. 一个 SSH 项目快速开发脚手架  
 2. 项目采用 idea + Maven 搭建
 3. 项目采用了一个简单的登录示例演示 SSH 整合的实现     
 
-### 3.2 Spring SpringMVC MyBatis 框架 （SSM 篇）  
-#### 3.2.1 Spring  
+### 2.4 Spring SpringMVC MyBatis 框架 （SSM 篇）  
+> Java-EE（SSM）分支
+#### 2.4.1 Spring  
 1. day1-ioc
 2. day2-aop
 
-#### 3.2.2 SpringMVC 
+#### 2.4.2 SpringMVC 
 1. SpringMVC-day1
 2. SpringMVC-day2
 
-#### 3.2.3 MyBatis （2020年9月17日 更新）
+#### 2.4.3 MyBatis （2020年9月17日 更新）
 1. mybatis-day1 （环境搭建+crud+xml）  
 2. mybatis-day2 （高级用法）
 
-#### 3.2.4 SSM 整合  （2020年9月17日 更新）
+#### 2.4.4 SSM 整合  （2020年9月17日 更新）
 1. SSM （Spring5 + SpringMVC + MyBatis + c3p0）  注解开发
 2. SSM （Spring5 + SpringMVC + MyBatis + Druid） XML + 注解开发
 
-# 四、SpringBoot_study  (2020 6 16 更新)
-### 4.0 advanced （高级整合篇）
+### 2.5 SpringBoot_study  (2020 6 16 更新)
+> Java-EE（SpringBoot）分支
+#### 2.5.1 advanced （高级整合篇）
 1. SpringBoot 整合 ElasticSearch
     - SpringBoot-es-api es api 的学习
     - SpringBoot-es-jd 京东爬虫实战搜索
 2. SpringBoot 整合定时任务
 3. SpringBoot 整合 WebSocket
-### 4.1 SpringBoot 整合持久层  （2020 11 9新增 SpringBoot 整合 MongoDB）
+#### 2.5.2 SpringBoot 整合持久层  （2020 11 9新增 SpringBoot 整合 MongoDB）
 >  SpringBoot 整合持久层相关
 1. 整合 JdbcTemplate   
 2. 整合 MyBatis    
@@ -191,28 +232,30 @@ verify code 由 servlet 生成
 7. 整合 redis 
 8. 整合 mongoDB
   
-### 4.2 SpringBoot 全局处理配置  （2020 10 9） 
+#### 2.5.3 SpringBoot 全局处理配置  （2020 10 9） 
 1. SpringBoot 配置全局异常处理   
 2. SpringBoot 整合 Java 配置类   
 3. SpringBoot 整合 Swagger2     
 4. SpringBoot 整合 aop 
   
-### 4.3 SpringBoot 整合安全框架 （2020 8 17）      
+#### 2.5.4 SpringBoot 整合安全框架 （2020 8 17）      
 1. SpringBoot 整合 Shiro 框架  
 2. SpringBoot 整合 JWT 框架   
 
-### 4.4 templates 模板语法 （2020 10 23）  
+#### 2.5.5 templates 模板语法 （2020 10 23）  
 模板语法看看也好  
 1. SpringBoot + tyhmeleaf + jpa 实现的 CRUD  
 
-### 4.5 application （应用）
+#### 2.5.6 application （应用）
 对应 SpringBoot 应用篇  
 1. SpringBoot 防止表单重复提交
 2. SpringBoot 整合邮件发布 
 
 PS： 实际上 SpringBoot 的项目远比这个更多
 
-# 五、更新记录
+# 三、更新记录
+- 更新 GOF 文档，优化分支内容，更新 readme，更新 Spring Cloud Alibaba 文档 - 2021年6月21日
+
 - 更新了 GOF 设计模式板块，增加了 GOF 分支 - 2021年1月13日。后序考虑增加 SpringCloudAlibaba
 
 - 更新了 SpringBoot 整合 MongoDB - 2020年11月9日
