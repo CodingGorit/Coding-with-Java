@@ -1,45 +1,5 @@
-# Coding-with-Java  项目介绍  
-
-项目地址：[Coding-with-Java](https://github.com/CodingGorit/Coding-with-Java)
-项目介绍：
-> Coding-with-Java 是一个面向新手的 Java 从入门到进阶的项目，内容主要涉及 Java SE，Java EE 和 一些企业级框架的学习及使用，致力于帮助编程新手解决学习完基础语法，没有合适的项目练手。以及知识点巩固。后期会不定期更新一些面试题。此项目将会保持持续更新，目前主要由我一个人在维护。 <span style="float:right">edit by CodingGorit on 2020/6</span>
-
-
-Java项目整合目录:  
-一、 Java 从入门到精通笔记  
-1. Java SE 篇  
-2. Java EE 篇  
-3. Spring 全家桶系列  
-4. ORM 框架系列（待整理）
-  
-二、Java SE 至 Java EE系列项目整合  
-1. Java SE 学习阶段项目练习
-2. Java EE 学习阶段项目练习  
-
-三、Java EE 企业级框架篇章  
-1. SSH 系列 （更新完毕）  
-2. SSM 系列  (更新完毕)
-3. SpringBoot 系列  （更新中）
-4. SpringCloud 系列 （待更新）
-
-四、ORM 框架系列
-1. mybatis 框架
-2. hibernate 框架
-
-五、面试系列
-1. 笔试，面试题目整理
-
-六、数据库部分
-1. 关系型数据库
-2. 非关系型数据库
-
-七、设计模式  
-> 已经更新，见分支 GOF
-
-# 一、Java 从入门到精通学习笔记  
-see [Java 从入门到精通](https://www.yuque.com/u300253/learnjava)
-
-Tips:
+# Coding-with-Java 项目
+> 同步更新 [传送门](https://www.yuque.com/u300253/learnjava/ogxg5p)  
 > 如果有想参与文档编写的同学，可以联系我 gorit@qq.com
 
 ### 1.1 Java SE篇 (2020 6 2 更新)
@@ -121,19 +81,35 @@ Hibernate 框架
 5.1 JavaSE 基础篇  
 5.2 JavaEE 篇  
 5.3 Spring 框架篇  
-5.4 计算机基础理论 与 操作系统  
-5.5 前端相关  
+5.4 数据库相关
+5.5 计算机基础理论 与 操作系统  
+5.6 前端相关   
+    5.6.1 [游览器](https://www.yuque.com/u300253/learnjava/gu3cxq)
 
 ### 1.6 数据库部分  
 6.1 关系型数据库   
-    6.1.1 [MySQL原理及优化](https://www.yuque.com/u300253/learnjava/wcu5gq)
-6.2 非关系型数据库
+    6.1.1 [MySQL原理及优化](https://www.yuque.com/u300253/learnjava/wcu5gq)  
+6.2 非关系型数据库  
+    6.2.1 [redis](https://www.yuque.com/u300253/learnjava/asdguq)  
+    6.2.2 [MongoDB](https://www.yuque.com/u300253/learnjava/remfdp)
 
 ### 1.7 设计模式   
 7.1  [设计模式总览](https://www.yuque.com/u300253/learnjava/hg11l4)   
 7.2  [适应性设计模式](https://www.yuque.com/u300253/learnjava/xoes5q)  
-    - Iterator 模式  
-    - Adapter 模式
+    - [Iterator 模式](https://www.yuque.com/u300253/learnjava/ogxg5p)  
+    - [Adapter 模式](https://www.yuque.com/u300253/learnjava/bmvqdb)  
+7.3 交给子类  
+    - [Template Method 模式](https://www.yuque.com/u300253/learnjava/zrukp1)  
+    - [Factory Method 模式](https://www.yuque.com/u300253/learnjava/ayhwdh)  
+
+7.4 生成实例  
+    - [Singleton 模式](https://www.yuque.com/u300253/learnjava/yxhw7i)  
+    - [Prototype 模式](https://www.yuque.com/u300253/learnjava/hern8t)  
+    - [Builder 模式](https://www.yuque.com/u300253/learnjava/xsqbsh)  
+    - [Abstract Factory 模式 ](https://www.yuque.com/u300253/learnjava/fq7rfm)  
+    - [Bridge 模式](https://www.yuque.com/u300253/learnjava/tqvgb8)  
+    - [Strategy 模式](https://www.yuque.com/u300253/learnjava/dyudoo)  
+7.5 一致性
 
 # 二、 Java 基础项目  
 ### 2.1 Java SE 篇章  
@@ -250,3 +226,4 @@ PS： 实际上 SpringBoot 的项目远比这个更多
 - 更新了 JavaEE（SSM）部分内容 —— 2020年9月17日
 
 - 项目更新了分支，大家可以根据需要下载对应的部分 —— 2020年8月
+
