@@ -12,6 +12,7 @@
 
 target/
 .idea/
+.gradle/
 out/
 log/
 
