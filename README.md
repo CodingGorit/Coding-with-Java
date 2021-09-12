@@ -32,5 +32,7 @@
 ### 4.1 桥接模式（Bridge）  
 [Bridge](https://www.yuque.com/gorit/learnjava/tqvgb8)  
 
-### 4.2 
+### 4.2 策略模式（Strategy）
+[策略模式](https://www.yuque.com/gorit/learnjava/dyudoo)  
+> 整体的替换内部的实现算法，对应不同的策略
 
