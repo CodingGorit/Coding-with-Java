@@ -36,3 +36,10 @@
 [策略模式](https://www.yuque.com/gorit/learnjava/dyudoo)  
 > 整体的替换内部的实现算法，对应不同的策略
 
+## 五、一致性  
+### 5.1 Composite 模式  
+[Composite 模式](https://www.yuque.com/gorit/learnjava/eaa021)  
+> 一个树结构，使用递归遍历
+
+### 5.1 Decorator 模式  
+[Decorator 模式](https://www.yuque.com/gorit/learnjava/maxsgr)
