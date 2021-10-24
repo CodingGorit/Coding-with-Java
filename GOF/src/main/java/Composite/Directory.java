@@ -8,10 +8,10 @@ import java.util.Iterator;
  * @Date 2021/10/7
  * @desc 表示文件夹的类
  **/
-public class Dirextory extends Entry {
+public class Directory extends Entry {
     private String name; // 文件夹名称
     private ArrayList directory = new ArrayList(); // 文件夹中目录的集合
-    public Dirextory(String name) {
+    public Directory(String name) {
         this.name = name;
     }
 

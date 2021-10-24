@@ -1,29 +1,13 @@
-package Composite;
+package Visitor;
 
 /**
  * @Author Gorit
- * @Date 2021/10/7
- * 使用 main 创建如下目录树
- * - root
- *      - bin
- *          - vi
- *          - latex
- *      - tmp
- *      - usr
- *          - yuki
- *              - diary.html
- *              - Composite.java
- *           - hanko
- *              - memo.tax
- *            -  tomura
- *              - game.doc
- *              - junk.mail
+ * @Date 2021/10/24
  **/
 public class Main {
-
     public static void main(String[] args) {
         try {
-            System.out.println("Making root entries...");
+            System.out.println("Making root entries");
             Directory rootDir = new Directory("root");
             Directory bindDir = new Directory("bin");
             Directory tmpDir = new Directory("tmp");
@@ -31,25 +15,24 @@ public class Main {
             rootDir.add(bindDir);
             rootDir.add(tmpDir);
             rootDir.add(usrDir);
-
             bindDir.add(new File("vi", 10000));
             bindDir.add(new File("latex", 20000));
-            rootDir.printList();
+            rootDir.accept(new ListVisitor());
 
             System.out.println("");
             System.out.println("Making user entries...");
             Directory yuki = new Directory("yuki");
-            Directory hanko = new Directory("hanko");
+            Directory hanok = new Directory("hanok");
             Directory tomura = new Directory("tomura");
             usrDir.add(yuki);
-            usrDir.add(hanko);
+            usrDir.add(hanok);
             usrDir.add(tomura);
-            yuki.add(new File("diary.html", 1001));
-            yuki.add(new File("Composite.java", 200));
-            hanko.add(new File("memo.tak", 300));
-            tomura.add(new File("game.doc", 400));
-            tomura.add(new File("junk.mail", 500));
-            rootDir.printList();
+            yuki.add(new File("diary.html", 5000));
+            yuki.add(new File("Visitor.java", 1024));
+            hanok.add(new File("emo.jpg", 256));
+            hanok.add(new File("game.doc", 500));
+            tomura.add(new File("yuku.mail", 300));
+            rootDir.accept(new ListVisitor());
         } catch (FileTreatmentException e) {
             e.printStackTrace();
         }
