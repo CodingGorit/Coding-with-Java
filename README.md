@@ -42,4 +42,17 @@
 > 一个树结构，使用递归遍历
 
 ### 5.1 Decorator 模式  
-[Decorator 模式](https://www.yuque.com/gorit/learnjava/maxsgr)
+[Decorator 模式](https://www.yuque.com/gorit/learnjava/maxsgr)  
+
+## 六、访问数据结构
+### 6.1 Visitor 模式
+[Visitor 模式](https://www.yuque.com/gorit/learnjava/fgw71w)  
+
+### 6.2 Chain of Responsibility 模式
+[责任链模式](https://www.yuque.com/gorit/learnjava/segh96)
+
+## 七、简单化
+### 7.1 Facade 模式
+
+
+### 7.2 Mediator 模式
