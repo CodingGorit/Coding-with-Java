@@ -1,0 +1,4 @@
+hyuki@hyuki.com=Hiroshi Yuki
+hanako@hyuki.com=Hanako Stao
+tomura@hyuki.com=Tomura
+manoru@hyuki.com=Mamoru Takahashi

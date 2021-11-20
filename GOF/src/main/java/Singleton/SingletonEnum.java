@@ -1,4 +1,4 @@
-package singleton;
+package Singleton;
 
 public enum SingletonEnum {
     Singleton

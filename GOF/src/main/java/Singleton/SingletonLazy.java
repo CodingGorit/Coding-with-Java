@@ -1,4 +1,4 @@
-package singleton;
+package Singleton;
 
 /**
  * 懒汉式单例模式（线程不安全）

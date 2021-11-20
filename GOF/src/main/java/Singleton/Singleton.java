@@ -1,4 +1,4 @@
-package singleton;
+package Singleton;
 
 /**
  * 单例模式的实现  （饿汉式）
