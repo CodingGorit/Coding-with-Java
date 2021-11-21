@@ -53,7 +53,11 @@
 
 ## 七、简单化
 ### 7.1 Facade 模式
-
-
+[Facade 模式](https://www.yuque.com/gorit/learnjava/ua4r9y)
 
 ### 7.2 Mediator 模式
+[Mediator 模式](https://www.yuque.com/gorit/learnjava/qma7e8)
+
+## 八、管理状态
+### 8.1 Observer 模式
+[Observer 模式](https://www.yuque.com/gorit/learnjava/cgl33e)
