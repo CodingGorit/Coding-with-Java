@@ -21,7 +21,7 @@
 
 ### 3.2 原型模式（Prototype）  
 [原型链模式](https://www.yuque.com/gorit/learnjava/hern8t)    
- 
+
 ### 3.3 建造者模式 （Builder）   
 [建造者模式](https://www.yuque.com/gorit/learnjava/xsqbsh)    
 
@@ -53,6 +53,7 @@
 
 ## 七、简单化
 ### 7.1 Facade 模式
+
 
 
 ### 7.2 Mediator 模式
