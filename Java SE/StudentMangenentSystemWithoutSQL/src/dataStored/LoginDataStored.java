@@ -4,30 +4,34 @@ import java.util.*;
 import Login.Login;
 import pojo.SignIn;
 
+/**
+*   æ•°æ®å­˜å‚¨
+**/
 public class LoginDataStored {
-    public static  SignIn s=new SignIn();
-    public static  List<SignIn> list=new ArrayList<SignIn>();
-    public static Scanner in=new Scanner(System.in);
-    static Login ll=new Login();
+    public static SignIn s;
+    public static List<SignIn> list=new ArrayList<SignIn>();
+    public static Scanner in=new Scanner(System.in);    // å®ä¾‹åŒ–è¾“å…¥æµ
+    static Login ll=new Login();                        // å®ä¾‹åŒ–ç™»å½•é¡µé¢
     
-    public void init() {//³õÊ¼»¯ÕËºÅĞÅÏ¢
+    // åˆå§‹åŒ–è´¦å·ä¿¡æ¯ï¼Œinit æ–¹æ³•ä¸€å®šä¼šåœ¨ Register ä¹‹å‰æ‰§è¡Œ
+    public void init() {
     	list.add(new SignIn("aaa","bbb"));
     	list.add(new SignIn("bbb","ccc"));
     }
     
+    // å•ç‹¬çš„æ³¨å†Œæ–¹æ³•ï¼ŒæŒ‰ç†è¯´ï¼Œç™»å½• å’Œ æ³¨å†Œçš„å‡½æ•°åº”è¯¥æ˜¯å†™åœ¨ä¸€èµ·æ‰å¯¹
     public static void Register() {
-    	info("»¶Ó­À´µ½×¢²á½çÃæ");
+    	info("æ¬¢è¿æ¥åˆ°æ³¨å†Œç•Œé¢");
     	String account="";
     	String password="";
-    	System.out.println("ÇëÊäÈëÄãµÄÕËºÅ:");
+    	System.out.println("è¯·è¾“å…¥ä½ çš„è´¦å·:");
     	account=in.next();
-    	System.out.println("ÇëÊäÈëÄãµÄÃÜÂë:");
+    	System.out.println("è¯·è¾“å…¥ä½ çš„å¯†ç :");
     	password=in.next();
     	s=new SignIn(account,password);
     	list.add(s);
-    	//·µ»ØµÇÂ¼½çÃæ
+    	//è¿”å›ç™»å½•ç•Œé¢
     	ll.login();
-    	
     }
     
     public static void info(String str) {
