@@ -1,6 +1,9 @@
 # Coding-with-Java 项目
-> 同步更新 [传送门](https://www.yuque.com/u300253/learnjava/ogxg5p)  
-> 如果有想参与文档编写的同学，可以联系我 gorit@qq.com
+一个正经的介绍：这里属于 **Java从入门到精通到全栈** 文档中附属的项目篇
+
+ 😎😎😎 同步更新 => [传送门](https://www.yuque.com/u300253/learnjava)  
+
+ 😍😍😍 如果有想参与文档编写的同学，可以通过如下唯一方式联系我 javafullstack2021@163.com
 
 # 项目目录
 ```ts
@@ -36,34 +39,31 @@
     1.3 [Java 中的基本运算符](https://www.yuque.com/u300253/learnjava/java_se_basic_03)  
     1.4 [访问修饰符](https://www.yuque.com/u300253/learnjava/java_se_basic_04)  
     1.5 [流程控制 与 循环](https://www.yuque.com/u300253/learnjava/java_se_basic_05)  
-    1.6 [数组的基本使用](https://www.yuque.com/u300253/learnjava/java_se_basic_06)  
-
+    1.6 [数组的基本使用](https://www.yuque.com/u300253/learnjava/java_se_basic_06)
 2. [JavaSE 面向对象篇（类的基本结构）](https://www.yuque.com/u300253/learnjava/java_se_02)  
 3. [Java SE （面向对象篇 ——封装、继承、多态、抽象）](https://www.yuque.com/u300253/learnjava/java_se_03)
 4. [Java 内置 API 学习](https://www.yuque.com/u300253/learnjava/java_se_04)
-
 5. [Java 修饰符](https://www.yuque.com/u300253/learnjava/java_se_05)
-
 6. [Java 中异常处理](https://www.yuque.com/u300253/learnjava/java_se_06)
-
 7. [泛型与集合](https://www.yuque.com/u300253/learnjava/java_se_07)
-
 8. [Java 的 IO 编程](https://www.yuque.com/u300253/learnjava/java_se_08)
-
 9. [多线程编程](https://www.yuque.com/u300253/learnjava/java_se_09)
-
 10. [Java 网络编程](https://www.yuque.com/u300253/learnjava/java_se_10)
-
 11. [Java SE 高级特性](https://www.yuque.com/u300253/learnjava/java_se_11)
+12. [Java JDBC 讲解（封装，连接池等）](https://www.yuque.com/u300253/learnjava/dpen8i)
+13. [Java jvm 系列](https://www.yuque.com/gorit/learnjava/wyp1or)  
 
-12. [Java JDBC 讲解（封装，连接池等）](https://www.yuque.com/u300253/learnjava/dpen8i)  
-
+14. [学完这些内容，我可以用 JavaSE 做哪些项目呢？](https://www.yuque.com/gorit/learnjava/vmiidf)
 ### 1.2 Java EE篇
 1. [Servlet 篇](https://www.yuque.com/u300253/learnjava/java_ee_01)  
 
 2. [过滤器 与 监听器](https://www.yuque.com/u300253/learnjava/java_ee_02) 
 
-3. [JSP ](https://www.yuque.com/u300253/learnjava/java_ee_03)  
+3. [JSP](https://www.yuque.com/u300253/learnjava/java_ee_03)   
+
+4. [web 前端基础以及后续进阶](https://www.yuque.com/gorit/learnjava/nww8sl)  
+
+5. [web前端基础（HTML + CSS + JavaScript）](https://www.yuque.com/gorit/learnjava/ru4so1)
 
 ### 1.3 Spring 全家桶系列  (2020 9 17 更新)
 1. [Spring 系列]()  
@@ -121,9 +121,9 @@ Hibernate 框架
 
 ### 1.7 设计模式   
 7.1  [设计模式总览](https://www.yuque.com/u300253/learnjava/hg11l4)   
-7.2  [适应性设计模式](https://www.yuque.com/u300253/learnjava/xoes5q)  
+7.2  适应性设计模式  
     - [Iterator 模式](https://www.yuque.com/u300253/learnjava/ogxg5p)  
-    - [Adapter 模式](https://www.yuque.com/u300253/learnjava/bmvqdb)  
+    - [Adapter 模式](https://www.yuque.com/u300253/learnjava/bmvqdb)    
 7.3 交给子类  
     - [Template Method 模式](https://www.yuque.com/u300253/learnjava/zrukp1)  
     - [Factory Method 模式](https://www.yuque.com/u300253/learnjava/ayhwdh)  
@@ -135,25 +135,53 @@ Hibernate 框架
     - [Abstract Factory 模式 ](https://www.yuque.com/u300253/learnjava/fq7rfm)  
     - [Bridge 模式](https://www.yuque.com/u300253/learnjava/tqvgb8)  
     - [Strategy 模式](https://www.yuque.com/u300253/learnjava/dyudoo)  
-7.5 一致性  
-    - TODO
+
+7.5 分开考虑  
+    - [Bridge模式 —— 将类功能层次结构与实现层次结构分离](https://www.yuque.com/gorit/learnjava/tqvgb8)  
+    - [Strategy 模式 —— 整体地替换算法](https://www.yuque.com/gorit/learnjava/dyudoo)  
+
+7.6 一致性  
+    - [Composite 模式 —— 容器与内容一致性](https://www.yuque.com/gorit/learnjava/eaa021)
+    - [Decorator 模式 —— 装饰边框与被装饰物的一致性](https://www.yuque.com/gorit/learnjava/maxsgr)
+7.7 访问数据结构  
+    - [Visitor 模式 —— 访问数据结构并处理数据](https://www.yuque.com/gorit/learnjava/fgw71w)  
+    - [Chain of Responsibility 模式 —— 推卸责任](https://www.yuque.com/gorit/learnjava/segh96)  
+7.8 简单化  
+    - [Facade 模式 —— 简单窗口](https://www.yuque.com/gorit/learnjava/ua4r9y)  
+    - [Mediator 模式 —— 只有一个仲裁者](https://www.yuque.com/gorit/learnjava/qma7e8)  
+
+7.9 管理状态  
+    - [Observer 模式 —— 发送状态变化通知](https://www.yuque.com/gorit/learnjava/cgl33e)  
+    - [Memento 模式 —— 保存对象状态](https://www.yuque.com/gorit/learnjava/zpz8ie)   
+    - [State 模式 —— 用类表示状态](https://www.yuque.com/gorit/learnjava/chm78t)   
+
+7.10 避免浪费   
+    - [Flyweight模式 —— 共享对象、避免浪费](https://www.yuque.com/gorit/learnjava/hkflv4)        
+    - [Proxy 模式 —— 只在必要时生成实例](https://www.yuque.com/gorit/learnjava/ap1m1v)     
+7.11 用类来实现  
+    - [Command 模式 —— 命令也是类](https://www.yuque.com/gorit/learnjava/crgr9s)  
+    - [Interpreter 模式 —— 语法规则也是类](https://www.yuque.com/gorit/learnjava/ectntf)  
 
 ### 1.8 Spring Cloud Alibaba（2021年6月21日更新）
 1. [Spring Cloud Alibaba 学习概览](https://www.yuque.com/u300253/learnjava/rt5vyc)
 2. [微服务注册中心 nacos 的安装与配置](https://www.yuque.com/u300253/learnjava/aqwd1w)
-3. [本地负载均衡]()
-4. [分布式配置中心]()
-5. [集群部署实现原理]()
-6. [微服务网关 Spring Cloud Gateway]()
-7. [服务持久化、熔断、降级 Sentinel]()
+3. [本地负载均衡](https://www.yuque.com/gorit/learnjava/au5ppz)
+4. [分布式配置中心](https://www.yuque.com/gorit/learnjava/uomfug)
+5. [集群部署实现原理](https://www.yuque.com/gorit/learnjava/tooggl)
+6. [微服务网关 Spring Cloud Gateway](https://www.yuque.com/gorit/learnjava/li0qx8)
+7. [服务持久化、熔断、降级 Sentinel](https://www.yuque.com/gorit/learnjava/wfse5n)
+
+### 1.9 项目实战篇
+TODO
+
 
 # 二、 Java 项目篇（看对应的分支）
 ### 2.1 Java SE 篇章  
 > 对应 Java-SE 分支
-#### 2.1.1 基于 Java 实现简单的注册登录系统     
-注意：   
+#### 2.1.1 基于 Java 实现简单的注册登录系统
 1. 非数据库实现  
 2. 使用 ArrayList 实现用户注册信息存储    
+3. 项目结构已经大改 —— 2021年12月2日
 
 #### 2.1.2 基于 Java SE 的简单学生管理系统 Java SE 版  
 1. 使用了数据库实现登录注册的功能   
@@ -162,7 +190,7 @@ Hibernate 框架
 
 ### 2.2 Java EE 篇章  
 > 对应 Java-EE（Basic）分支
-#### 2.2.1 实现验证码的生成以及验证  (Java With CAPTCHA )  
+#### 2.2.1 实现验证码的生成以及验证  (Java With CAPTCHA)  
 verify code 由 servlet 生成  
 
 #### 2.2.2 学生管理系统 Java EE 版本 （简易 Java Web）   
@@ -170,7 +198,6 @@ verify code 由 servlet 生成
 > 此版本是在 Java SE 的基础上进行了升级， 数据库不变，有三张表。可以进行简单的数据添加，修改，和删除的功能  
 
 #### 2.2.3 Java EE 之简易购物车项目  (ShoppingMall)
-项目简介： 
 > 此项目为一个简单的 Java EE 小小购物车的项目，它具有最简单的登录，购物车页面展示（分页），添加购物车，下单，付款（使用支付宝沙箱完成此操作）  
 
 
@@ -254,6 +281,8 @@ verify code 由 servlet 生成
 PS： 实际上 SpringBoot 的项目远比这个更多
 
 # 三、更新记录
+- 我又活过来了，这次来我是把 GOF 的部分已经更新完了，同时开始梳理每个项目 -2021年12月2日
+
 - 更新 GOF 文档，优化分支内容，更新 readme，更新 Spring Cloud Alibaba 文档 - 2021年6月21日
 
 - 更新了 GOF 设计模式板块，增加了 GOF 分支 - 2021年1月13日。后序考虑增加 SpringCloudAlibaba
