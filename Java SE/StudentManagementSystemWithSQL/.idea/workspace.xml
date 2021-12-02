@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04a8552c-e74e-4e63-9a67-505a74486290" name="Default Changelist" comment="" />
+    <list default="true" id="04a8552c-e74e-4e63-9a67-505a74486290" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_0_6_bin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentManagementSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/StudentManagementSystem.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentManagementSystem/cn/gorit/dao/impl/StudentDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentManagementSystem/cn/gorit/dao/impl/StudentDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentManagementSystem/cn/gorit/util/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentManagementSystem/cn/gorit/util/BaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/gorit/util/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/gorit/util/BaseDao.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,18 +41,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1aWYO0nEa5u0A4qx2nivK5UUqvC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Java 项目/jar 包/jdbc/mysql-connector-java-5.1.0-bin.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,8 +65,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.51031893" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\Coding-with-Java\Java SE\StudentManagementSystemWithSQL\lib" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -62,6 +83,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,6 +126,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -107,80 +140,22 @@
       <workItem from="1586852784272" duration="6697000" />
       <workItem from="1586864316997" duration="13002000" />
       <workItem from="1586910444913" duration="8327000" />
+      <workItem from="1624881380966" duration="9349000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="0" y="196" key="#Project_Structure" timestamp="1586852789911">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="0" y="196" key="#Project_Structure/0.0.1920.1049@0.0.1920.1049" timestamp="1586852789911" />
-    <state x="512" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586865221563">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="512" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1586865221563" />
-    <state x="895" y="262" key="#com.intellij.ide.util.MemberChooser" timestamp="1586879245594">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="895" y="262" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049@0.0.1920.1049" timestamp="1586879245594" />
-    <state x="1255" y="308" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586856346756">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="1255" y="308" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1586856346756" />
-    <state x="980" y="374" key="FileChooserDialogImpl" timestamp="1586876692364">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="980" y="374" key="FileChooserDialogImpl/0.0.1920.1049@0.0.1920.1049" timestamp="1586876692364" />
-    <state width="1742" height="273" key="GridCell.Tab.0.bottom" timestamp="1586918931158">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1742" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1049@0.0.1920.1049" timestamp="1586918931158" />
-    <state width="1742" height="273" key="GridCell.Tab.0.center" timestamp="1586918931158">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1742" height="273" key="GridCell.Tab.0.center/0.0.1920.1049@0.0.1920.1049" timestamp="1586918931158" />
-    <state width="1742" height="273" key="GridCell.Tab.0.left" timestamp="1586918931158">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1742" height="273" key="GridCell.Tab.0.left/0.0.1920.1049@0.0.1920.1049" timestamp="1586918931158" />
-    <state width="1742" height="273" key="GridCell.Tab.0.right" timestamp="1586918931158">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1742" height="273" key="GridCell.Tab.0.right/0.0.1920.1049@0.0.1920.1049" timestamp="1586918931158" />
-    <state width="1742" height="271" key="GridCell.Tab.1.bottom" timestamp="1586879500378">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1742" height="271" key="GridCell.Tab.1.bottom/0.0.1920.1049@0.0.1920.1049" timestamp="1586879500378" />
-    <state width="1742" height="271" key="GridCell.Tab.1.center" timestamp="1586879500378">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1742" height="271" key="GridCell.Tab.1.center/0.0.1920.1049@0.0.1920.1049" timestamp="1586879500378" />
-    <state width="1742" height="271" key="GridCell.Tab.1.left" timestamp="1586879500378">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1742" height="271" key="GridCell.Tab.1.left/0.0.1920.1049@0.0.1920.1049" timestamp="1586879500378" />
-    <state width="1742" height="271" key="GridCell.Tab.1.right" timestamp="1586879500378">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1742" height="271" key="GridCell.Tab.1.right/0.0.1920.1049@0.0.1920.1049" timestamp="1586879500378" />
-    <state x="349" y="0" key="SettingsEditor" timestamp="1586876694191">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="349" y="0" key="SettingsEditor/0.0.1920.1049@0.0.1920.1049" timestamp="1586876694191" />
-    <state x="769" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1586910445274">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="769" y="320" key="com.intellij.ide.util.TipDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1586910445274" />
-    <state x="662" y="133" key="refactoring.ChangeSignatureDialog" timestamp="1586867906964">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="662" y="133" key="refactoring.ChangeSignatureDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1586867906964" />
-    <state x="1460" y="14" width="840" height="1034" key="search.everywhere.popup" timestamp="1586914970553">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="1460" y="14" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1049@0.0.1920.1049" timestamp="1586914970553" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -3,8 +3,8 @@ package cn.gorit.util;
 import java.sql.*;
 
 public class BaseDao {
-    private String Driver = "com.mysql.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://localhost:3306/studentmanagementsystem?useUnicode=true&characterEncoding=utf8";
+    private String Driver = "com.mysql.cj.jdbc.Driver";
+    private static final String URL = "jdbc:mysql://localhost:3306/studentmanagementsystem?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "root";
     private Connection con = null;
