@@ -24,7 +24,7 @@
 
 二、Java 项目篇（对应不同的分支）
  2.1 Java SE 项目
- 2.2 Java EE 醒目
+ 2.2 Java EE 项目
  2.3 Java EE 企业框架（SSH）
  2.4 Java EE 企业框架（SSM）
  2.5 SpringBoot
@@ -281,6 +281,7 @@ verify code 由 servlet 生成
 PS： 实际上 SpringBoot 的项目远比这个更多
 
 # 三、更新记录
+中间断更是因为，大四毕业上班去了 hhhhh
 - 我又活过来了，这次来我是把 GOF 的部分已经更新完了，同时开始梳理每个项目 -2021年12月2日
 
 - 更新 GOF 文档，优化分支内容，更新 readme，更新 Spring Cloud Alibaba 文档 - 2021年6月21日
