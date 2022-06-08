@@ -171,9 +171,6 @@ Hibernate 框架
 6. [微服务网关 Spring Cloud Gateway](https://www.yuque.com/gorit/learnjava/li0qx8)
 7. [服务持久化、熔断、降级 Sentinel](https://www.yuque.com/gorit/learnjava/wfse5n)
 
-### 1.9 项目实战篇
-TODO
-
 
 # 二、 Java 项目篇（看对应的分支）
 ### 2.1 Java SE 篇章  
@@ -281,6 +278,8 @@ verify code 由 servlet 生成
 PS： 实际上 SpringBoot 的项目远比这个更多
 
 # 三、更新记录
+- 删除 master 分支中，java se 中的项目，JavaSE 项目需要去 Java-SE 分支去看 - 2022年6月8日
+
 中间断更是因为，大四毕业上班去了 hhhhh
 - 我又活过来了，这次来我是把 GOF 的部分已经更新完了，同时开始梳理每个项目 -2021年12月2日
 
