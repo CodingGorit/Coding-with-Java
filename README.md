@@ -201,6 +201,8 @@ verify code 由 servlet 生成
 #### 2.2.3 Java EE 之简易购物车项目  (ShoppingMall)
 > 此项目为一个简单的 Java EE 小小购物车的项目，它具有最简单的登录，购物车页面展示（分页），添加购物车，下单，付款（使用支付宝沙箱完成此操作）  
 
+#### 2.2.4 JavaEE login demo（2022年6月18日）
+> > 基于 MVC 模式实现的 登录 和 查询功能，通过 session 对非法访问的进行处理
 
 ### 2.3 Java EE 企业级框架篇  
 > Java-EE（SSH）分支
@@ -282,6 +284,8 @@ verify code 由 servlet 生成
 PS： 实际上 SpringBoot 的项目远比这个更多
 
 # 三、更新记录
+- JavaEE 新增 login demo 案例 （JavaEE（Basic）分支）—— 2022年6月18日
+
 - 每个分支对应不同的项目添加对应 .gitignore, 修改 master 分支 README - 2022年6月11日
 
 - 删除 master 分支中，java se 中的项目，JavaSE 项目需要去 Java-SE 分支去看 - 2022年6月8日
