@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Coding-with-Java.iml" filepath="$PROJECT_DIR$/.idea/Coding-with-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java SE/StudentManagementSystemWithSQL/StudentManagementSystemWithSQL.iml" filepath="$PROJECT_DIR$/Java SE/StudentManagementSystemWithSQL/StudentManagementSystemWithSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java SE/StudentMangenentSystemWithoutSQL/StudentMangenentSystemWithoutSQL.iml" filepath="$PROJECT_DIR$/Java SE/StudentMangenentSystemWithoutSQL/StudentMangenentSystemWithoutSQL.iml" />
+    </modules>
+  </component>
+</project>
