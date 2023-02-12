@@ -22,7 +22,7 @@
 <!--    </aop:config>-->
 
     <!-- 扫描 AOP 下的包-->
-    <context:component-scan base-package="cn.gorit.aop"/>
+    <context:component-scan base-package="cn"/>
     <!--    开启注解的 AOP 编程  JDK 代理-->
-    <aop:aspectj-autoproxy proxy-target-class="false"/>
+<!--    <aop:aspectj-autoproxy proxy-target-class="false"/>-->
 </beans>

@@ -2,6 +2,7 @@ package cn.gorit.test;
 
 
 import cn.gorit.aop.People;
+import cn.gorit.second.Performance;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -17,8 +18,11 @@ public class Test {
 //        p.listen("adaw");
 
 //        AOP 注解
-        People p = ac.getBean(People.class);
-        p.speak();
-        p.listen(); // 配置两个 切入点
+//        People person = ac.getBean(People.class);
+//        person.speak();
+//        person.listen(); // 配置两个 切入点
+
+        Performance p = (Performance) ac.getBean(Performance.class);
+        p.perform();
     }
 }
