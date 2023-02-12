@@ -284,6 +284,8 @@ verify code 由 servlet 生成
 PS： 实际上 SpringBoot 的项目远比这个更多
 
 # 三、更新记录
+- JavaSSM 新增案例代码，对应原文 [AOP 注解专题](https://www.yuque.com/gorit/learnjava/wc4rsg/edit#THePM) —— 2023年2月12日
+
 - JavaEE 新增 login demo 案例 （JavaEE（Basic）分支）—— 2022年6月18日
 
 - 每个分支对应不同的项目添加对应 .gitignore, 修改 master 分支 README - 2022年6月11日
