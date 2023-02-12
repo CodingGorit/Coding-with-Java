@@ -3,10 +3,14 @@
 ### 一、Spring 篇  
 
 - day1-IoC
-- day2-aop  
-- Demo/aop-demo  包含了一个 aop 的简单实例 
+- day2-aop   
+- Demo/aop-demo  包含了一个 aop 的简单实例
 
 > 两个案例分别是 IoC、AOP 的基本实现  
+ 
+更新记录  
+- 2023年2月12日 新增 [aop 注解代码案例](https://www.yuque.com/gorit/learnjava/wc4rsg/edit#THePM)
+
 
 ### 二、SpringMVC 篇  
 

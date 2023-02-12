@@ -29,15 +29,20 @@
         <constructor-arg index="1" value="12"/>
     </bean>
 
-    <!-- 构造器注入，根据 Type 注入 -->
+    <!-- 构造器注入，根据 Type 注入，如果有重复的基础类型，要使用 Type 属性区分 -->
     <bean name="stu1" class="cn.gorit.entity.Student" autowire="byType">
         <constructor-arg type="java.lang.String" value="coco"/>
         <constructor-arg type="java.lang.Integer" value="18"/>
     </bean>
 
+    <bean name="stu2" class="cn.gorit.entity.Student">
+        <constructor-arg name="name" value="蓝蓝"/>
+        <constructor-arg name="age" value="22"/>
+    </bean>
 
 
     <!-- 给 bean 设置一个别名 -->
     <alias name="stu" alias="s4"/>
     <alias name="stu1" alias="s5"/>
+    <alias name="stu2" alias="s6"/>
 </beans>
