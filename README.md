@@ -225,23 +225,34 @@ verify code 由 servlet 生成
 2. 项目采用 idea + Maven 搭建
 3. 项目采用了一个简单的登录示例演示 SSH 整合的实现     
 
-### 2.4 Spring SpringMVC MyBatis 框架 （Java-EE（SSM））  
+### 2.4 Spring SpringMVC MyBatis 框架 （JavaEE-SSM）  
+
 > Java-EE（SSM）分支
-#### 2.4.1 Spring  
+#### 2.4.1 Spring
+
 1. day1-ioc
 2. day2-aop
 
-#### 2.4.2 SpringMVC 
+#### 2.4.2 SpringMV
+
 1. SpringMVC-day1
 2. SpringMVC-day2
 
 #### 2.4.3 MyBatis （2020年9月17日 更新）
+
 1. mybatis-day1 （环境搭建+crud+xml）  
 2. mybatis-day2 （高级用法）
 
 #### 2.4.4 SSM 整合  （2020年9月17日 更新）
+
 1. SSM （Spring5 + SpringMVC + MyBatis + c3p0）  注解开发
 2. SSM （Spring5 + SpringMVC + MyBatis + Druid） XML + 注解开发
+
+#### 2.4.5 SSM project
+
+| 项目 | 主要技术栈 | 主要功能 | 添加时间 |
+| :---: | --- | --- | :---: |
+| his_ssm | JSP + Spring5 + SpringMVC + mybatis + BootStrap + mysql8 | 登陆、退出登陆、注册、单表 CRUD、模糊查询。下拉框动态加载数据，分页显示 | 2023/06/28 |
 
 ### 2.5 SpringBoot (2020 6 16 更新 —— SpringBoot 分支)
 > Java-EE（SpringBoot）分支
@@ -277,13 +288,18 @@ verify code 由 servlet 生成
 1. SpringBoot + tyhmeleaf + jpa 实现的 CRUD  
 
 #### 2.5.6 application （应用）
+
 对应 SpringBoot 应用篇  
+
 1. SpringBoot 防止表单重复提交
 2. SpringBoot 整合邮件发布 
 
 PS： 实际上 SpringBoot 的项目远比这个更多
 
 # 三、更新记录
+
+- JavaSSM (JavaEE-SSM 分支) 新增 his_ssm 案例，适合期末大作业（主要功能：登陆、退出登陆、注册、单表 CRUD、模糊查询。下拉框动态加载数据，分页显示）—— 2023年6月28日
+
 - JavaSSM 新增案例代码，对应原文 [AOP 注解专题](https://www.yuque.com/gorit/learnjava/wc4rsg/edit#THePM) —— 2023年2月12日
 
 - JavaEE 新增 login demo 案例 （JavaEE（Basic）分支）—— 2022年6月18日
