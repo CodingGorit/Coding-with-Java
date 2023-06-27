@@ -7,4 +7,9 @@
 <!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
 <!--        <setting name="useGeneratedKeys" value="true"/>-->
 <!--    </settings>-->
+
+<!-- show mybatis sql log if neccessary -->
+<!--	<settings>-->
+<!--		<setting name="logImpl" value="STDOUT_LOGGING"/>-->
+<!--	</settings>-->
 </configuration>
