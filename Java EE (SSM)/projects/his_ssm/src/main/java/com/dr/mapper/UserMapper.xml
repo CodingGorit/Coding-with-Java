@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dr.mapper.UserMapper">
+	<!-- 脚本片段，便于复用 -->
+	<sql id="queryUserAndDept">
+		select s.*,d.deptName
+		from sysuser s,dept d
+		where
+		s.deptId=d.deptId
+		and del=0
+	</sql>
+	<!-- 用户列表 -->
+
+	<select id="selectUserList" resultType="user">
+		select s.*,d.deptName
+		from sysuser s,dept d
+		where
+			s.deptId=d.deptId
+		  and del=0
+		order by s.id
+	</select>
+
+	<!-- 按姓名查询 -->
+	<select id="findUserListByName" parameterType="java.lang.String"
+		resultType="user">
+		<include refid="queryUserAndDept"></include> <!-- 引用脚本片段 -->
+		<if test="value!=null and value!=''">
+			and (name like concat("%",#{value},"%")
+			or account like concat("%",#{value},"%"))
+		</if>
+		order by s.id
+	</select>
+	<!-- 按Account查询 -->
+	<select id="findUserByAccount" parameterType="java.lang.String"
+		resultType="user">
+		<include refid="queryUserAndDept"></include> <!-- 引用脚本片段 -->
+		and account = #{value} order by s.id
+	</select>
+
+	<!-- 增加用户 -->
+	<insert id="insertUser" parameterType="user">
+		insert into
+		sysuser(account,name,password,job,deptid,enable,createUserId,createTime)
+		values(#{account},#{name},#{password},#{job},#{deptId},IFNULL(#{enable},0),#{createUser},now())
+	</insert>
+	<!-- 根据ID查找用户 -->
+	<select id="findUserById" parameterType="int"
+		resultType="user">
+		select s.*,d.deptName from sysuser s,dept d
+		where
+		s.deptId=d.deptId
+		and s.id=${value}
+	</select>
+	<!-- 修改用户 -->
+	<update id="updateUser" parameterType="user">
+		update sysuser
+		<set>
+			name=#{name},
+			<if test="password!=null and password!=''">
+				password=#{password},
+			</if>
+			job=#{job},deptId=#{deptId},
+			updateUserId=#{updateUser},updateTime=now(),
+			enable=#{enable}
+		</set>
+		where id=#{id}
+	</update>
+	<!-- 删除用户 -->
+	<update id="deleteUser" parameterType="user">
+		update sysuser
+		<set>
+			del=1, updateUserId=#{updateUser}, updateTime=now()
+		</set>
+		where id=#{id}
+	</update>
+</mapper>

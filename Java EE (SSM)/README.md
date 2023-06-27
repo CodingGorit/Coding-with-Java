@@ -46,8 +46,19 @@
 - 新增 mybatis 打印 sql 执行日志注释 - 2023/6/28
 
 #### 4.2 Spring5 + SpringMVC + MyBatis + Druid  （2020年9月17日 更新）
+
 本版本使用的数据库连接池为 阿里的 Druid，并且支持 xml + 注解开发 
+
 1. Spring 使用版本锁定， 5.2.3 RELEASE  ，配置了 SpringAOP，SpringMVC  
 2. 使用日志记录系统 log4j      
 3. mybatis 版本为 3.4.5    
 4. mysql 版本为 5.5   
+
+### 五、projects
+
+小型项目实战
+
+| 项目 | 主要技术栈 | 主要功能 | 添加时间 |
+| :---: | --- | --- | :---: |
+| his_ssm | JSP + Spring5 + SpringMVC + mybatis + BootStrap + mysql8 | 登陆、退出登陆、注册、单表 CRUD、模糊查询。下拉框动态加载数据，分页显示 | 2023/06/28 |
+
