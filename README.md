@@ -1,4 +1,5 @@
 # Coding-with-Java 项目
+
 一个正经的介绍：这里属于 **Java从入门到精通到全栈** 文档中附属的 **项目篇**  
 
  😎😎😎 同步更新 => [传送门](https://www.yuque.com/u300253/learnjava)   
@@ -8,219 +9,68 @@
  🤭🤭🤭 致力于帮助每一位学习 Java 的同学构建出自己的学习体系  
 
  觉得不错的，帮忙点个 star 吧！！！
-# Java从入门到精通项目目录
-```ts
-一、Java 学习项目文档篇
-    1.1 Java SE
-    1.2 Java EE
-    1.3 Spring 全家桶
-        1.3.1 Spring 基础
-        1.3.2 Spring MVC
-        1.3.3 SpringBoot
-        1.3.4 SpringBoot 应用技巧
-        1.3.5 SpringCloud
-    1.4 ORM
-    1.5 面试 + 笔试
-    1.6 数据库部分
-    1.7 设计模式
-    1.8 Spring Cloud Alibaba
-
-二、Java 项目篇（对应不同的分支）
- 2.1 Java SE 项目 —— Java-SE
- 2.2 Java EE 项目 —— Java-EE（Basic）
- 2.3 Java EE 企业框架 —— JavaEE（SSH）
- 2.4 Java EE 企业框架 —— JavaEE（SSM）
- 2.5 SpringBoot
-三、更新日志
-```
-
-# 一、项目文档篇
-### 1.1 Java SE篇 (2020 6 2 更新)
-1. [JavaSE 基础语法篇](https://www.yuque.com/u300253/learnjava/java_se_01)  
-    1.1 [Java 快速入门](https://www.yuque.com/u300253/learnjava/java_se_basic_01)  
-    1.2 [Java变量及基础数据类型](https://www.yuque.com/u300253/learnjava/java_se_basic_02)  
-    1.3 [Java 中的基本运算符](https://www.yuque.com/u300253/learnjava/java_se_basic_03)  
-    1.4 [访问修饰符](https://www.yuque.com/u300253/learnjava/java_se_basic_04)  
-    1.5 [流程控制 与 循环](https://www.yuque.com/u300253/learnjava/java_se_basic_05)  
-    1.6 [数组的基本使用](https://www.yuque.com/u300253/learnjava/java_se_basic_06)
-2. [JavaSE 面向对象篇（类的基本结构）](https://www.yuque.com/u300253/learnjava/java_se_02)  
-3. [Java SE （面向对象篇 ——封装、继承、多态、抽象）](https://www.yuque.com/u300253/learnjava/java_se_03)
-4. [Java 内置 API 学习](https://www.yuque.com/u300253/learnjava/java_se_04)
-5. [Java 修饰符](https://www.yuque.com/u300253/learnjava/java_se_05)
-6. [Java 中异常处理](https://www.yuque.com/u300253/learnjava/java_se_06)
-7. [泛型与集合](https://www.yuque.com/u300253/learnjava/java_se_07)
-8. [Java 的 IO 编程](https://www.yuque.com/u300253/learnjava/java_se_08)
-9. [多线程编程](https://www.yuque.com/u300253/learnjava/java_se_09)
-10. [Java 网络编程](https://www.yuque.com/u300253/learnjava/java_se_10)
-11. [Java SE 高级特性](https://www.yuque.com/u300253/learnjava/java_se_11)
-12. [Java JDBC 讲解（封装，连接池等）](https://www.yuque.com/u300253/learnjava/dpen8i)
-13. [Java jvm 系列](https://www.yuque.com/gorit/learnjava/wyp1or)  
-
-14. [学完这些内容，我可以用 JavaSE 做哪些项目呢？](https://www.yuque.com/gorit/learnjava/vmiidf)
-### 1.2 Java EE篇
-1. [Servlet 篇](https://www.yuque.com/u300253/learnjava/java_ee_01)  
-
-2. [过滤器 与 监听器](https://www.yuque.com/u300253/learnjava/java_ee_02) 
-
-3. [JSP](https://www.yuque.com/u300253/learnjava/java_ee_03)   
-
-4. [web 前端基础以及后续进阶](https://www.yuque.com/gorit/learnjava/nww8sl)  
-
-5. [web前端基础（HTML + CSS + JavaScript）](https://www.yuque.com/gorit/learnjava/ru4so1)
-
-### 1.3 Spring 全家桶系列  (2020 9 17 更新)
-1. [Spring 系列]()  
-    1.1 [Spring 框架概述](https://www.yuque.com/u300253/learnjava/wc4rsg)  
-    1.2 [Spring IoC注入](https://www.yuque.com/u300253/learnjava/ywr56y)  
-    1.3 [Spring AOP](https://www.yuque.com/u300253/learnjava/bw9kdq)  
-2. [Spring MVC 系列](https://www.yuque.com/u300253/learnjava/pqqu30)    
-    2.1 [SpringMVC 第一弹](https://www.yuque.com/u300253/learnjava/pqqu30)  
-    2.2 [SpringMVC 第二弹](https://www.yuque.com/u300253/learnjava/uytf6x)  
-    2.3 [SpringMVC SSM 整合](https://www.yuque.com/u300253/learnjava/ckth8z)    
-    2.4 [SpringMVC 执行原理](https://www.yuque.com/u300253/learnjava/sbsgk0)  
-    2.5 [SSM 整合快速版](https://www.yuque.com/u300253/learnjava/bqe80l)  
-3. [SpringBoot 系列]()   
-一、SpringBoot 基础整合  
-     3.1 [运行你的第一个 SpringBoot 程序](https://www.yuque.com/u300253/learnjava/fa4gbl)  
-     3.2 [SpringBoot Web 开发整合](https://www.yuque.com/u300253/learnjava/gah719)  
-     3.3 [SpringBoot 全局异常处理](https://www.yuque.com/u300253/learnjava/zh4czx)  
-     3.4 [SpringBoot 整合持久层技术](https://www.yuque.com/u300253/learnjava/piot24)   
-    3.5 [SpringBoot 整合 Swagger2](https://www.yuque.com/u300253/learnjava/egvrx8)  
-二、SpringBoot 整合安全框架  
-    3.6 [SpringBoot 整合 Shiro](https://www.yuque.com/u300253/learnjava/uua9sb)  
-    3.7 [SpringBoot 整合JWT](https://www.yuque.com/u300253/learnjava/qsu9ni)  
-三、SpringBoot 高级整合    
-    3.8 [SpringBoot 整合 WebSocket](https://www.yuque.com/u300253/learnjava/gbmw8g)     
-    3.9 [SpringBoot 整合定时任务](https://www.yuque.com/u300253/learnjava/arhauv)  
-    3.10 [SpringBoot 整合消息队列【待更新】](https://www.yuque.com/u300253/learnjava/ta42m8)   
-    3.11 [SpringBoot 整合 ElasticSearch](https://www.yuque.com/u300253/learnjava/sxhapw)  
-四、SpringBoot 应用技巧  
-    3.12 [SpringBoot 实现防止表单重复提交](https://www.yuque.com/u300253/learnjava/mmsgo6)  
-    3.13 [SpringBoot 整合 redis 技巧](https://www.yuque.com/u300253/learnjava/lehaln)    
-五、SpringCloud 相关  
-    3.14 [分布式微服务基础](https://www.yuque.com/u300253/learnjava/plhlyg)  
-
-### 1.4 ORM 框架系列
-MyBatis 框架   
-- 4.1 [MyBatis 框架简介](https://www.yuque.com/u300253/learnjava/ihsmbh)  
-- 4.2 [MyBatis 高级查询](https://www.yuque.com/u300253/learnjava/fu3eab)    
-Hibernate 框架  
-
-### 1.5 面试笔试系列  
-5.1 JavaSE 基础篇 [基础](https://www.yuque.com/u300253/learnjava/cuwogx)  
-5.2 JavaEE 篇  
-5.3 Spring 框架篇  
-5.4 数据库相关
-5.5 计算机基础理论 与 操作系统  
-5.6 前端相关   
-    5.6.1 [游览器](https://www.yuque.com/u300253/learnjava/gu3cxq)
-
-### 1.6 数据库部分  
-6.1 关系型数据库   
-    6.1.1 [MySQL原理及优化](https://www.yuque.com/u300253/learnjava/wcu5gq)  
-6.2 非关系型数据库  
-    6.2.1 [redis](https://www.yuque.com/u300253/learnjava/asdguq)  
-    6.2.2 [MongoDB](https://www.yuque.com/u300253/learnjava/remfdp)
-
-### 1.7 设计模式   
-7.1  [设计模式总览](https://www.yuque.com/u300253/learnjava/hg11l4)   
-7.2  适应性设计模式  
-    - [Iterator 模式](https://www.yuque.com/u300253/learnjava/ogxg5p)  
-    - [Adapter 模式](https://www.yuque.com/u300253/learnjava/bmvqdb)    
-7.3 交给子类  
-    - [Template Method 模式](https://www.yuque.com/u300253/learnjava/zrukp1)  
-    - [Factory Method 模式](https://www.yuque.com/u300253/learnjava/ayhwdh)  
-
-7.4 生成实例  
-    - [Singleton 模式](https://www.yuque.com/u300253/learnjava/yxhw7i)  
-    - [Prototype 模式](https://www.yuque.com/u300253/learnjava/hern8t)  
-    - [Builder 模式](https://www.yuque.com/u300253/learnjava/xsqbsh)  
-    - [Abstract Factory 模式 ](https://www.yuque.com/u300253/learnjava/fq7rfm)  
-    - [Bridge 模式](https://www.yuque.com/u300253/learnjava/tqvgb8)  
-    - [Strategy 模式](https://www.yuque.com/u300253/learnjava/dyudoo)  
-
-7.5 分开考虑  
-    - [Bridge模式 —— 将类功能层次结构与实现层次结构分离](https://www.yuque.com/gorit/learnjava/tqvgb8)  
-    - [Strategy 模式 —— 整体地替换算法](https://www.yuque.com/gorit/learnjava/dyudoo)  
-
-7.6 一致性  
-    - [Composite 模式 —— 容器与内容一致性](https://www.yuque.com/gorit/learnjava/eaa021)
-    - [Decorator 模式 —— 装饰边框与被装饰物的一致性](https://www.yuque.com/gorit/learnjava/maxsgr)
-7.7 访问数据结构  
-    - [Visitor 模式 —— 访问数据结构并处理数据](https://www.yuque.com/gorit/learnjava/fgw71w)  
-    - [Chain of Responsibility 模式 —— 推卸责任](https://www.yuque.com/gorit/learnjava/segh96)  
-7.8 简单化  
-    - [Facade 模式 —— 简单窗口](https://www.yuque.com/gorit/learnjava/ua4r9y)  
-    - [Mediator 模式 —— 只有一个仲裁者](https://www.yuque.com/gorit/learnjava/qma7e8)  
-
-7.9 管理状态  
-    - [Observer 模式 —— 发送状态变化通知](https://www.yuque.com/gorit/learnjava/cgl33e)  
-    - [Memento 模式 —— 保存对象状态](https://www.yuque.com/gorit/learnjava/zpz8ie)   
-    - [State 模式 —— 用类表示状态](https://www.yuque.com/gorit/learnjava/chm78t)   
-
-7.10 避免浪费   
-    - [Flyweight模式 —— 共享对象、避免浪费](https://www.yuque.com/gorit/learnjava/hkflv4)        
-    - [Proxy 模式 —— 只在必要时生成实例](https://www.yuque.com/gorit/learnjava/ap1m1v)     
-7.11 用类来实现  
-    - [Command 模式 —— 命令也是类](https://www.yuque.com/gorit/learnjava/crgr9s)  
-    - [Interpreter 模式 —— 语法规则也是类](https://www.yuque.com/gorit/learnjava/ectntf)  
-
-### 1.8 Spring Cloud Alibaba（2021年6月21日更新）
-1. [Spring Cloud Alibaba 学习概览](https://www.yuque.com/u300253/learnjava/rt5vyc)
-2. [微服务注册中心 nacos 的安装与配置](https://www.yuque.com/u300253/learnjava/aqwd1w)
-3. [本地负载均衡](https://www.yuque.com/gorit/learnjava/au5ppz)
-4. [分布式配置中心](https://www.yuque.com/gorit/learnjava/uomfug)
-5. [集群部署实现原理](https://www.yuque.com/gorit/learnjava/tooggl)
-6. [微服务网关 Spring Cloud Gateway](https://www.yuque.com/gorit/learnjava/li0qx8)
-7. [服务持久化、熔断、降级 Sentinel](https://www.yuque.com/gorit/learnjava/wfse5n)
-
 
 ---
+## 一、Java 笔记
 
-# 二、 Java 项目篇（看对应的分支）
-### 2.1 Java SE 篇章（见 Java-SE）  
+由于篇幅过长，我对笔记进行了拆分 @see README-yuque-notes.md
+
+## 二、Java 项目篇（看对应的分支）
+### 2.1 Java SE 篇章（见 Java-SE）
 #### 2.1.1 基于 Java 实现简单的注册登录系统
+
 1. 非数据库实现  
-2. 使用 ArrayList 实现用户注册信息存储    
+2. 使用 ArrayList 实现用户注册信息存储
 3. 项目结构已经大改 —— 2021年12月2日
 
-#### 2.1.2 基于 Java SE 的简单学生管理系统 Java SE 版  
-1. 使用了数据库实现登录注册的功能   
-2. 封装了 JDBC 实现简单的 BaseDao    
-3. 使用 mysql 为数据库作为数据持久化  
+#### 2.1.2 基于 Java SE 的简单学生管理系统 Java SE 版
+
+1. 使用了数据库实现登录注册的功能
+2. 封装了 JDBC 实现简单的 BaseDao
+3. 使用 mysql 为数据库作为数据持久化
 
 ### 2.2 Java EE 篇章（见Java-EE（Basic））
+
 > 对应 Java-EE（Basic）分支
-#### 2.2.1 实现验证码的生成以及验证  (Java With CAPTCHA)  
+#### 2.2.1 实现验证码的生成以及验证  (Java With CAPTCHA)
+
 verify code 由 servlet 生成  
 
-#### 2.2.2 学生管理系统 Java EE 版本 （Java Web + CRUD）   
+#### 2.2.2 学生管理系统 Java EE 版本 （Java Web + CRUD）
+
 (StudentManagementAdvance)  
 > 此版本是在 Java SE 的基础上进行了升级， 数据库不变，有三张表。可以进行简单的数据添加，修改，和删除的功能  
 
 #### 2.2.3 Java EE 之简易购物车项目  (ShoppingMall)
+
 > 此项目为一个简单的 Java EE 小小购物车的项目，它具有最简单的登录，购物车页面展示（分页），添加购物车，下单，付款（使用支付宝沙箱完成此操作）  
 
 #### 2.2.4 JavaEE login demo（2022年6月18日）
+
 > > 基于 MVC 模式实现的 登录 和 查询功能，通过 session 对非法访问的进行处理
 
 ### 2.3 Java EE 企业级框架篇  
+
 > Java-EE（SSH）分支
 #### 2.3.1 Struct2 hibernate spring 框架 （Java-EE（SSH））
 ##### 一、 Struct2 实现权限管理  （2020 5 19更新）  
+
 > 使用 maven 构建 Java EE 项目，并导入 Struct2 依赖，使用 Struct2 的类拦截器实现简易的权限管理功能   
 
 新更新了如下功能   
+
 1. Ajax + JSON 格式数据返回  
 2. 实现文件上传 + 下载功能  
 3. 提供 struct2 生成验证码的功能   
 
 ##### 二、新增 Struct2 + hibernate 整合项目 (2020 6 2更新)   
+
 1. 使用 Struct2 框架实现 MVC 的功能   
 2. 使用 hibernate 实现 ORM 的功能     
 3. 以学生管理系统为例，整合两个框架的使用    
 
 ##### 三、 新增 struct2 + hibernate5 + Spring5 整合项目 （2020 6 14日更新）  
+
 1. 一个 SSH 项目快速开发脚手架  
 2. 项目采用 idea + Maven 搭建
 3. 项目采用了一个简单的登录示例演示 SSH 整合的实现     
@@ -255,14 +105,17 @@ verify code 由 servlet 生成
 | his_ssm | JSP + Spring5 + SpringMVC + mybatis + BootStrap + mysql8 | 登陆、退出登陆、注册、单表 CRUD、模糊查询。下拉框动态加载数据，分页显示 | 2023/06/28 |
 
 ### 2.5 SpringBoot (2020 6 16 更新 —— SpringBoot 分支)
+
 > Java-EE（SpringBoot）分支
 #### 2.5.1 advanced （高级整合篇）
+
 1. SpringBoot 整合 ElasticSearch
     - SpringBoot-es-api es api 的学习
     - SpringBoot-es-jd 京东爬虫实战搜索
 2. SpringBoot 整合定时任务
 3. SpringBoot 整合 WebSocket
 #### 2.5.2 SpringBoot 整合持久层  （2020 11 9新增 SpringBoot 整合 MongoDB）
+
 >  SpringBoot 整合持久层相关
 1. 整合 JdbcTemplate   
 2. 整合 MyBatis    
@@ -274,17 +127,21 @@ verify code 由 servlet 生成
 8. 整合 mongoDB
   
 #### 2.5.3 SpringBoot 全局处理配置  （2020 10 9） 
+
 1. SpringBoot 配置全局异常处理   
 2. SpringBoot 整合 Java 配置类   
 3. SpringBoot 整合 Swagger2     
 4. SpringBoot 整合 aop 
   
-#### 2.5.4 SpringBoot 整合安全框架 （2020 8 17）      
+#### 2.5.4 SpringBoot 整合安全框架 （2020 8 17）
+
 1. SpringBoot 整合 Shiro 框架  
 2. SpringBoot 整合 JWT 框架   
 
-#### 2.5.5 templates 模板语法 （2020 10 23）  
-模板语法看看也好  
+#### 2.5.5 templates 模板语法 （2020 10 23）
+
+模板语法看看也好
+
 1. SpringBoot + tyhmeleaf + jpa 实现的 CRUD  
 
 #### 2.5.6 application （应用）
@@ -297,6 +154,8 @@ verify code 由 servlet 生成
 PS： 实际上 SpringBoot 的项目远比这个更多
 
 # 三、更新记录
+
+- master 分支 README 格式梳理，语雀笔记相关内容 迁移到 README-yuque-notes.md —— 2023年6月29日
 
 - JavaSSM (JavaEE-SSM 分支) 新增 his_ssm 案例，适合期末大作业（主要功能：登陆、退出登陆、注册、单表 CRUD、模糊查询。下拉框动态加载数据，分页显示）—— 2023年6月28日
 
