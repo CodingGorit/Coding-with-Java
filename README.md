@@ -13,7 +13,7 @@
 ---
 ## 一、Java 笔记
 
-由于篇幅过长，我对笔记进行了拆分 @see README-yuque-notes.md
+由于篇幅过长，我对笔记进行了拆分 @see [README-yuque-notes.md](https://github.com/CodingGorit/Coding-with-Java/blob/master/README-yuque-notes.md)
 
 ## 二、Java 项目篇（看对应的分支）
 ### 2.1 Java SE 篇章（见 Java-SE）
@@ -114,9 +114,11 @@ verify code 由 servlet 生成
     - SpringBoot-es-jd 京东爬虫实战搜索
 2. SpringBoot 整合定时任务
 3. SpringBoot 整合 WebSocket
+
 #### 2.5.2 SpringBoot 整合持久层  （2020 11 9新增 SpringBoot 整合 MongoDB）
 
 >  SpringBoot 整合持久层相关
+
 1. 整合 JdbcTemplate   
 2. 整合 MyBatis    
 3. 整合 Spring Data JPA   
