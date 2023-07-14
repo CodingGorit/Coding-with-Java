@@ -6,7 +6,8 @@
   
 
 
-# 一、Java 从入门到精通学习笔记  （SpringBoot 专题）
+## 一、Java 从入门到精通学习笔记  （SpringBoot 专题）
+
 see [Java 从入门到精通](https://www.yuque.com/u300253/learnjava)
 
 Tips:
@@ -33,44 +34,59 @@ Tips:
 
 
 
-# 二、SpringBoot_study  (2020 10 23 更新)
+## 二、SpringBoot_study  (2020 10 23 更新)
+
 ### 2.2.0 advanced （SpringBoot 整合高级内容）
+
 1. SpringBoot 整合 ElasticSearch
     - SpringBoot-es-api  es api 的学习
     - SpringBoot-es-jd  京东爬虫实战搜索  
-2. SpringBoot 整合定时任务    
+2. SpringBoot 整合定时任务
 3. SpringBoot 整合 WebSocket  
 
 #### 2.2.1 SpringBoot 整合持久层  （2020 11 8新增多数据源）
-1. 整合 JdbcTemplate    
-2. 整合 MyBatis    
-3. 整合 Spring Data JPA    
-4. 整合 Spring Data JPA  构建 REST API    
+
+1. 整合 JdbcTemplate
+2. 整合 MyBatis
+3. 整合 Spring Data JPA
+4. 整合 Spring Data JPA  构建 REST API
 5. 整合 MyBatis-plus + redis
 6. 整合 多数据源 （MyBatis + Druid） 
 7. 整合 redis
 8. 整合 mongoDB
 
 #### 2.2.2 SpringBoot 全局处理配置  （2020 10 9）
-1. SpringBoot 配置全局异常处理   
-2. SpringBoot 整合 Java 配置类   
-3. SpringBoot 整合 Swagger2   
-4. SpringBoot 整合 aop 
+
+1. SpringBoot 配置全局异常处理
+2. SpringBoot 整合 Java 配置类
+3. SpringBoot 整合 Swagger2
+4. SpringBoot 整合 aop
   
-#### 2.2.3 SpringBoot 整合安全框架 （2020 8 17）    
+#### 2.2.3 SpringBoot 整合安全框架 （2020 8 17）
+
 1. SpringBoot 整合 Shiro 框架
 2. SpringBoot 整合 JWT 框架  
 
 #### 2.2.4 templates 模板语法 （2020 10 23）
+
 > 模板语法看看也好  
+
 1. SpringBoot + tyhmeleaf + jpa 实现的 CRUD
 
 
 #### 2.2.5 application  （应用）
+
 > 对应 SpringBoot 应用篇
+
 1. SpringBoot 防止表单重复提交
 2. SpringBoot 整合邮件发布
 
+## 三、SpringBoot 项目实战(2023年7月15日 更新)
 
-# 三、更新日志
+1. 实习生后台管理系统 (vue2 后台 + springboot 实现简易前后端分离应用)  适用于新手入门
+2. MyBlog 个人单体博客系统 (vue2后台 + vue2前台 + springboot 实现简易博客系统)  适用于期末大作业,以及实习找工作项目
+
+## 四、更新日志
+
 - 更新文档，更新 advanced，application 应用，持久层  redis， MyBatis-Plus
+- 新增 SpringBoot 项目实战练习项目 - 2023年7月15日
