@@ -155,7 +155,14 @@ verify code 由 servlet 生成
 
 PS： 实际上 SpringBoot 的项目远比这个更多
 
-# 三、更新记录
+#### 2.5.7 springboot projects (实战项目)
+
+1. 实习生管理系统 (vue2后台 + springboot后端)
+2. 个人单体博客系统 (vue2后台 + vue2前台 + springboot 后端)
+
+## 三、更新记录
+
+- SpringBoot 新增实战练手项目 —— 2023年7月15日
 
 - master 分支 README 格式梳理，语雀笔记相关内容 迁移到 README-yuque-notes.md —— 2023年6月29日
 
