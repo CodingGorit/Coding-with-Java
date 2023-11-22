@@ -27,3 +27,17 @@ thread.start(); // 调用 start，线程并未执行
 3. running -> terminal (调用 stop) -> blocked （sleep 或 wait | 获得锁） -> runnable（CPU 调度，被放弃执行 | 主动调用 yield） -> running
 4. sleep/await -> blocked （stop）  
 5. notify, notifyAll
+
+### 使用多线程  
+
+1. 继承 Thread
+2. 实现 Runnable 接口
+3. 实现 Callable 接口
+4. 线程池
+5. Timer （不严谨）
+
+重写 run 方法，编写自己的业务逻辑
+
+> 创建线程的方式只有一种 new Thread
+
+### 守护线程
