@@ -2,7 +2,7 @@
 
 提高程序的执行效率
 
-## 线程基础
+## 一、线程基础
 
 ### 进程与线程
 
@@ -28,7 +28,7 @@ thread.start(); // 调用 start，线程并未执行
 4. sleep/await -> blocked （stop）  
 5. notify, notifyAll
 
-### 使用多线程  
+### 使用多线程  (unit2/Test2 | Test1)
 
 1. 继承 Thread
 2. 实现 Runnable 接口
@@ -40,4 +40,11 @@ thread.start(); // 调用 start，线程并未执行
 
 > 创建线程的方式只有一种 new Thread
 
-### 守护线程
+### 守护线程 （unit2/Test3)
+
+用来处理后台任务
+
+> 处理线程额外逻辑，附加逻辑
+- GC
+
+## 二、线程常见 API (unit2/Test4)
