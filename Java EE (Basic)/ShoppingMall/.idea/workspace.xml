@@ -5,8 +5,28 @@
       <artifact name="ShoppingMall:Web exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6f7a209-6424-45bc-b05b-e6a141aa1c82" name="Default Changelist" comment="" />
+    <list default="true" id="c6f7a209-6424-45bc-b05b-e6a141aa1c82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ShoppingMall.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9364fb39-cf95-4ebe-a72d-96a8827bc622.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9364fb39-cf95-4ebe-a72d-96a8827bc622.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ShoppingMall/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ShoppingMall/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ShoppingMall/WEB-INF/classes/cn/gorit/util/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ShoppingMall/WEB-INF/classes/cn/gorit/util/BaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ShoppingMall/WEB-INF/classes/com/alipay/config/AlipayConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ShoppingMall/WEB-INF/classes/com/alipay/config/AlipayConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/gorit/util/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/gorit/util/BaseDao.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,17 +62,17 @@
     </expand>
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="ShoppingMall" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -61,62 +81,63 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="1b4HZ5DTenf3YO6GEJYZiyKEgDo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.153125" />
-    <property name="project.structure.side.proportion" value="0.43232718" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/web/alipay.trade.refund.jsp" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Java-EE（Basic）",
+    "last_opened_file_path": "D:/coding/jar/mysql-connector-java-8.0.22.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15208825",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="cn.gorit.dao.impl" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\Github\Coding-with-Java\Java EE (Basic)\ShoppingMall\src\main\web\WEB-INF\lib" />
       <recent name="D:\workspace\ShoppingMall\src\main\web\WEB-INF\lib" />
       <recent name="D:\workspace\ShoppingMall\src\main\java" />
       <recent name="D:\workspace\ShoppingMall\src\main\web" />
       <recent name="D:\workspace\ShoppingMall\web" />
-      <recent name="D:\workspace\ShoppingMall\src\main\java\cn\gorit\config" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.gorit.dao" />
-      <recent name="cn.gorit.servlet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\ShoppingMall\src\main\web\bootstrap" />
       <recent name="D:\workspace\ShoppingMall\src\main" />
       <recent name="D:\workspace\ShoppingMall" />
       <recent name="D:\workspace\ShoppingMall\src\main\resources" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="cn.gorit.dao.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.gorit.dao" />
+      <recent name="cn.gorit.servlet" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.ShoppingMall">
@@ -133,7 +154,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingMall" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.gorit.test.Test1" />
+      <module name="ShoppingMall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.gorit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingMall" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ShoppingMall" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ShoppingMall:Web exploded">
@@ -169,6 +206,21 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -268,8 +320,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Tomcat Server.ShoppingMall" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -297,6 +355,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -333,164 +392,22 @@
       <workItem from="1589179248298" duration="4397000" />
       <workItem from="1589256553627" duration="242000" />
       <workItem from="1589339655397" duration="7152000" />
+      <workItem from="1718195736807" duration="2258000" />
+      <workItem from="1718198025937" duration="5647000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="448" y="98" key="#Notifications" timestamp="1589005370286">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="448" y="98" key="#Notifications/0.0.1920.1049@0.0.1920.1049" timestamp="1589005370286" />
-    <state x="657" y="163" width="1016" height="886" key="#Project_Structure" timestamp="1589340103529">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="657" y="163" width="1016" height="886" key="#Project_Structure/0.0.1920.1049@0.0.1920.1049" timestamp="1589340103529" />
-    <state x="689" y="56" width="1092" height="897" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589351296835">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="689" y="56" width="1092" height="897" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1589351296835" />
-    <state x="431" y="262" key="#com.intellij.ide.util.MemberChooser" timestamp="1587977718755">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="431" y="262" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049@0.0.1920.1049" timestamp="1587977718755" />
-    <state x="639" y="87" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1588925756409">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="639" y="87" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1588925756409" />
-    <state x="663" y="174" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1588931347461">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="663" y="174" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1049@0.0.1920.1049" timestamp="1588931347461" />
-    <state x="853" y="464" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1588926086584">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="853" y="464" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1049@0.0.1920.1049" timestamp="1588926086584" />
-    <state x="892" y="464" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1588926251275">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="892" y="464" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1588926251275" />
-    <state x="898" y="355" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588930424833">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="898" y="355" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1588930424833" />
-    <state x="788" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1588925045547">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="788" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1588925045547" />
-    <state x="251" y="72" width="1633" height="852" key="DiffContextDialog" timestamp="1588934694635">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="251" y="72" width="1633" height="852" key="DiffContextDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1588934694635" />
-    <state x="1212" y="239" key="FileChooserDialogImpl" timestamp="1589256790742">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="1212" y="239" key="FileChooserDialogImpl/0.0.1920.1049@0.0.1920.1049" timestamp="1589256790742" />
-    <state width="1247" height="233" key="GridCell.Tab.0.bottom" timestamp="1589351403166">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1247" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1049@0.0.1920.1049" timestamp="1589351403166" />
-    <state width="1247" height="233" key="GridCell.Tab.0.center" timestamp="1589351403166">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1247" height="233" key="GridCell.Tab.0.center/0.0.1920.1049@0.0.1920.1049" timestamp="1589351403166" />
-    <state width="1247" height="233" key="GridCell.Tab.0.left" timestamp="1589351403166">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1247" height="233" key="GridCell.Tab.0.left/0.0.1920.1049@0.0.1920.1049" timestamp="1589351403166" />
-    <state width="1247" height="233" key="GridCell.Tab.0.right" timestamp="1589351403166">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1247" height="233" key="GridCell.Tab.0.right/0.0.1920.1049@0.0.1920.1049" timestamp="1589351403166" />
-    <state width="1247" height="233" key="GridCell.Tab.1.bottom" timestamp="1589351403100">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1247" height="233" key="GridCell.Tab.1.bottom/0.0.1920.1049@0.0.1920.1049" timestamp="1589351403100" />
-    <state width="1247" height="233" key="GridCell.Tab.1.center" timestamp="1589351403100">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1247" height="233" key="GridCell.Tab.1.center/0.0.1920.1049@0.0.1920.1049" timestamp="1589351403100" />
-    <state width="1247" height="233" key="GridCell.Tab.1.left" timestamp="1589351403100">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1247" height="233" key="GridCell.Tab.1.left/0.0.1920.1049@0.0.1920.1049" timestamp="1589351403100" />
-    <state width="1247" height="233" key="GridCell.Tab.1.right" timestamp="1589351403100">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1247" height="233" key="GridCell.Tab.1.right/0.0.1920.1049@0.0.1920.1049" timestamp="1589351403100" />
-    <state width="1247" height="233" key="GridCell.Tab.2.bottom" timestamp="1589351403101">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1247" height="233" key="GridCell.Tab.2.bottom/0.0.1920.1049@0.0.1920.1049" timestamp="1589351403101" />
-    <state width="1247" height="233" key="GridCell.Tab.2.center" timestamp="1589351403101">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1247" height="233" key="GridCell.Tab.2.center/0.0.1920.1049@0.0.1920.1049" timestamp="1589351403101" />
-    <state width="1247" height="233" key="GridCell.Tab.2.left" timestamp="1589351403101">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1247" height="233" key="GridCell.Tab.2.left/0.0.1920.1049@0.0.1920.1049" timestamp="1589351403101" />
-    <state width="1247" height="233" key="GridCell.Tab.2.right" timestamp="1589351403101">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1247" height="233" key="GridCell.Tab.2.right/0.0.1920.1049@0.0.1920.1049" timestamp="1589351403101" />
-    <state width="1409" height="242" key="GridCell.Tab.3.bottom" timestamp="1588931113095">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1409" height="242" key="GridCell.Tab.3.bottom/0.0.1920.1049@0.0.1920.1049" timestamp="1588931113095" />
-    <state width="1409" height="242" key="GridCell.Tab.3.center" timestamp="1588931113095">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1409" height="242" key="GridCell.Tab.3.center/0.0.1920.1049@0.0.1920.1049" timestamp="1588931113095" />
-    <state width="1409" height="242" key="GridCell.Tab.3.left" timestamp="1588931113095">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1409" height="242" key="GridCell.Tab.3.left/0.0.1920.1049@0.0.1920.1049" timestamp="1588931113095" />
-    <state width="1409" height="242" key="GridCell.Tab.3.right" timestamp="1588931113095">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="1409" height="242" key="GridCell.Tab.3.right/0.0.1920.1049@0.0.1920.1049" timestamp="1588931113095" />
-    <state width="283" height="614" key="HiddenNamespacesPopup" timestamp="1588055345892">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state width="283" height="614" key="HiddenNamespacesPopup/0.0.1920.1049@0.0.1920.1049" timestamp="1588055345892" />
-    <state x="474" y="207" key="IDE.errors.dialog" timestamp="1589028328948">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="474" y="207" key="IDE.errors.dialog/0.0.1920.1049@0.0.1920.1049" timestamp="1589028328948" />
-    <state x="143" y="128" key="Maven.ArtifactSearchDialog" timestamp="1588934926285">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="143" y="128" key="Maven.ArtifactSearchDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1588934926285" />
-    <state x="496" y="84" width="1230" height="883" key="SettingsEditor" timestamp="1589353307135">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="496" y="84" width="1230" height="883" key="SettingsEditor/0.0.1920.1049@0.0.1920.1049" timestamp="1589353307135" />
-    <state x="549" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1589256774330">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="549" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1589256774330" />
-    <state x="813" y="194" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1588926653061">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="813" y="194" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1588926653061" />
-    <state x="57" y="0" width="821" height="1049" key="find.popup" timestamp="1588233795348">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="57" y="0" width="821" height="1049" key="find.popup/0.0.1920.1049@0.0.1920.1049" timestamp="1588233795348" />
-    <state x="301" y="0" key="new project wizard" timestamp="1588256405279">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="301" y="0" key="new project wizard/0.0.1920.1049@0.0.1920.1049" timestamp="1588256405279" />
-    <state x="1297" y="262" key="run.anything.popup" timestamp="1589339842082">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="1297" y="262" key="run.anything.popup/0.0.1920.1049@0.0.1920.1049" timestamp="1589339842082" />
-    <state x="851" y="14" width="840" height="1034" key="search.everywhere.popup" timestamp="1588928075432">
-      <screen x="0" y="0" width="1920" height="1049" />
-    </state>
-    <state x="851" y="14" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1049@0.0.1920.1049" timestamp="1588928075432" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

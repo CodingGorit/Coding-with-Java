@@ -4,7 +4,6 @@
     <data-source source="LOCAL" name="test@localhost" uuid="9364fb39-cf95-4ebe-a72d-96a8827bc622">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <schema-control>AUTOMATIC</schema-control>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/test</jdbc-url>
     </data-source>

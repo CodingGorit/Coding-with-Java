@@ -1,0 +1,75 @@
+# Java related
+*.class
+*.bak
+*.swp
+*.swn
+*.swo
+*.tmp
+*.rej
+*~
+
+# Log files
+*.log
+logs/
+
+# Package files
+*.iml
+.idea/
+*.ipr
+*.iws
+.idea_modules/
+
+# Maven related
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
+.mvn/wrapper/MavenWrapperMain.java
+
+# Gradle related
+.gradle/
+.gradle.lockfile
+.gradle.log
+.gradle.properties
+.gradle.properties.lock
+.gradle.taskGraph.lock
+.gradle.buildOutputCleanup.lock
+
+# Eclipse related
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.recommendersignore
+.metadata
+
+# NetBeans related
+nbproject/private/
+nbproject/ant-imports/
+nbproject/build-impl.xml
+nbproject/clean-impl.xml
+nbproject/genfiles.properties
+nbproject/private/private.properties
+nbproject/private/private.xml
+nbproject/project.properties
+nbproject/project.xml
+
+# Other
+*.iml.zip
+.idea.zip
+*.log.zip
+out/
+.DS_Store
+Thumbs.db
