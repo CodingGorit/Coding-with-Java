@@ -53,6 +53,7 @@ verify code 由 servlet 生成
 
 > Java-EE（SSH）分支
 #### 2.3.1 Struct2 hibernate spring 框架 （Java-EE（SSH））
+
 ##### 一、 Struct2 实现权限管理  （2020 5 19更新）  
 
 > 使用 maven 构建 Java EE 项目，并导入 Struct2 依赖，使用 Struct2 的类拦截器实现简易的权限管理功能   
@@ -161,6 +162,8 @@ PS： 实际上 SpringBoot 的项目远比这个更多
 2. 个人单体博客系统 (vue2后台 + vue2前台 + springboot 后端)
 
 ## 三、更新记录
+
+- JavaEE 分支, ShoppingMall 项目, MySQL Driver 更新至 8.0 - 2024年6月12日
 
 - SpringBoot 新增实战练手项目 —— 2023年7月15日
 
